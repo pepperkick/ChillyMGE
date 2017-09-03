@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "49"
+	"mapversion" "52"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "49"
+	"mapversion" "52"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -37736,17 +37736,17 @@ world
 		side
 		{
 			"id" "29178"
-			"plane" "(-1456 2252 -1268) (-1456 2252 -1273.78) (-1840 2252 -1489)"
+			"plane" "(-1455 2253 -1268) (-1455 2253 -1273.78) (-1839 2253 -1489)"
 			"material" "METAL/WALL028"
-			"uaxis" "[-0.5021 0 0.8648 -846.811] 0.25"
-			"vaxis" "[-0.8542 -0.1561 -0.496 -674.746] 0.25"
+			"uaxis" "[-0.5021 0 0.8648 -844.803] 0.25"
+			"vaxis" "[-0.8542 -0.1561 -0.496 -670.705] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-1840 2252 -1489]"
+				"startposition" "[-1839 2253 -1489]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -37806,10 +37806,10 @@ world
 		side
 		{
 			"id" "29177"
-			"plane" "(-1840 2253 -1483.22) (-1840 2253 -1489) (-1456 2253 -1273.78)"
+			"plane" "(-1839 2254 -1483.22) (-1839 2254 -1489) (-1455 2254 -1273.78)"
 			"material" "METAL/WALL028"
-			"uaxis" "[-0.5021 0 0.8648 -846.811] 0.25"
-			"vaxis" "[-0.8542 -0.1561 -0.496 -674.746] 0.25"
+			"uaxis" "[-0.5021 0 0.8648 -844.803] 0.25"
+			"vaxis" "[-0.8542 -0.1561 -0.496 -670.705] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -37817,10 +37817,10 @@ world
 		side
 		{
 			"id" "29176"
-			"plane" "(-1456 2253 -1268) (-1456 2253 -1273.78) (-1456 2252 -1273.78)"
+			"plane" "(-1455 2254 -1268) (-1455 2254 -1273.78) (-1455 2253 -1273.78)"
 			"material" "METAL/WALL028"
 			"uaxis" "[0 0 -1 -400] 0.25"
-			"vaxis" "[0 1 0 -960] 0.25"
+			"vaxis" "[0 1 0 -964] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -37828,10 +37828,10 @@ world
 		side
 		{
 			"id" "29175"
-			"plane" "(-1456 2253 -1273.78) (-1840 2253 -1489) (-1840 2252 -1489)"
+			"plane" "(-1455 2254 -1273.78) (-1839 2254 -1489) (-1839 2253 -1489)"
 			"material" "METAL/WALL028"
-			"uaxis" "[-0.8723 0 -0.4889 -781.328] 0.25"
-			"vaxis" "[0 1 0 -960] 0.25"
+			"uaxis" "[-0.8723 0 -0.4889 -777.839] 0.25"
+			"vaxis" "[0 1 0 -964] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -37839,10 +37839,10 @@ world
 		side
 		{
 			"id" "29174"
-			"plane" "(-1840 2252 -1483.22) (-1840 2252 -1489) (-1840 2253 -1489)"
+			"plane" "(-1839 2253 -1483.22) (-1839 2253 -1489) (-1839 2254 -1489)"
 			"material" "METAL/WALL028"
 			"uaxis" "[0 0 1 400] 0.25"
-			"vaxis" "[0 1 0 -960] 0.25"
+			"vaxis" "[0 1 0 -964] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -37850,10 +37850,10 @@ world
 		side
 		{
 			"id" "29173"
-			"plane" "(-1456 2252 -1268) (-1840 2252 -1483.22) (-1840 2253 -1483.22)"
+			"plane" "(-1455 2253 -1268) (-1839 2253 -1483.22) (-1839 2254 -1483.22)"
 			"material" "METAL/WALL028"
-			"uaxis" "[0.8723 0 0.4889 781.328] 0.25"
-			"vaxis" "[0 1 0 -960] 0.25"
+			"uaxis" "[0.8723 0 0.4889 777.839] 0.25"
+			"vaxis" "[0 1 0 -964] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -38276,7 +38276,7 @@ world
 		side
 		{
 			"id" "29202"
-			"plane" "(-1840 2252 -1485) (-1840 2252 -1489) (-1840 2512 -1489)"
+			"plane" "(-1839 2252 -1485) (-1839 2252 -1489) (-1839 2512 -1489)"
 			"material" "METAL/WALL028"
 			"uaxis" "[0 1 0 -32] 0.25"
 			"vaxis" "[0 0 -1 -852] 0.25"
@@ -38286,7 +38286,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-1840 2252 -1489]"
+				"startposition" "[-1839 2252 -1489]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -38346,7 +38346,7 @@ world
 		side
 		{
 			"id" "29201"
-			"plane" "(-1839 2512 -1485) (-1839 2512 -1489) (-1839 2252 -1489)"
+			"plane" "(-1838 2512 -1485) (-1838 2512 -1489) (-1838 2252 -1489)"
 			"material" "METAL/WALL028"
 			"uaxis" "[0 1 0 -32] 0.25"
 			"vaxis" "[0 0 -1 -852] 0.25"
@@ -38357,10 +38357,10 @@ world
 		side
 		{
 			"id" "29200"
-			"plane" "(-1839 2252 -1485) (-1839 2252 -1489) (-1840 2252 -1489)"
+			"plane" "(-1838 2252 -1485) (-1838 2252 -1489) (-1839 2252 -1489)"
 			"material" "METAL/WALL028"
 			"uaxis" "[0 0 -1 -400] 0.25"
-			"vaxis" "[1 0 0 128] 0.25"
+			"vaxis" "[1 0 0 124] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -38368,10 +38368,10 @@ world
 		side
 		{
 			"id" "29199"
-			"plane" "(-1840 2512 -1489) (-1840 2252 -1489) (-1839 2252 -1489)"
+			"plane" "(-1839 2512 -1489) (-1839 2252 -1489) (-1838 2252 -1489)"
 			"material" "METAL/WALL028"
 			"uaxis" "[0 1 0 -960] 0.25"
-			"vaxis" "[1 0 0 128] 0.25"
+			"vaxis" "[1 0 0 124] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -38379,10 +38379,10 @@ world
 		side
 		{
 			"id" "29198"
-			"plane" "(-1840 2512 -1485) (-1840 2512 -1489) (-1839 2512 -1489)"
+			"plane" "(-1839 2512 -1485) (-1839 2512 -1489) (-1838 2512 -1489)"
 			"material" "METAL/WALL028"
 			"uaxis" "[0 0 1 400] 0.25"
-			"vaxis" "[1 0 0 128] 0.25"
+			"vaxis" "[1 0 0 124] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -38390,10 +38390,10 @@ world
 		side
 		{
 			"id" "29197"
-			"plane" "(-1840 2252 -1485) (-1840 2512 -1485) (-1839 2512 -1485)"
+			"plane" "(-1839 2252 -1485) (-1839 2512 -1485) (-1838 2512 -1485)"
 			"material" "METAL/WALL028"
 			"uaxis" "[0 -1 0 960] 0.25"
-			"vaxis" "[1 0 0 128] 0.25"
+			"vaxis" "[1 0 0 124] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -42731,17 +42731,17 @@ world
 		side
 		{
 			"id" "29400"
-			"plane" "(-3152 1780 -1485) (-3152 1780 -1489) (-3152 1520 -1489)"
+			"plane" "(-3153 1779 -1485) (-3153 1779 -1489) (-3153 1519 -1489)"
 			"material" "METAL/WALL011F"
 			"uaxis" "[0 0 1 836] 0.25"
-			"vaxis" "[0 -1 0 828] 0.25"
+			"vaxis" "[0 -1 0 824] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-3152 1780 -1489]"
+				"startposition" "[-3153 1779 -1489]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -42801,10 +42801,10 @@ world
 		side
 		{
 			"id" "29399"
-			"plane" "(-3153 1520 -1485) (-3153 1520 -1489) (-3153 1780 -1489)"
+			"plane" "(-3154 1519 -1485) (-3154 1519 -1489) (-3154 1779 -1489)"
 			"material" "METAL/WALL011F"
 			"uaxis" "[0 0 1 836] 0.25"
-			"vaxis" "[0 -1 0 828] 0.25"
+			"vaxis" "[0 -1 0 824] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -42812,10 +42812,10 @@ world
 		side
 		{
 			"id" "29398"
-			"plane" "(-3153 1780 -1485) (-3153 1780 -1489) (-3152 1780 -1489)"
+			"plane" "(-3154 1779 -1485) (-3154 1779 -1489) (-3153 1779 -1489)"
 			"material" "METAL/WALL011F"
 			"uaxis" "[0 0 -1 -400] 0.25"
-			"vaxis" "[-1 0 0 -128] 0.25"
+			"vaxis" "[-1 0 0 -132] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -42823,10 +42823,10 @@ world
 		side
 		{
 			"id" "29397"
-			"plane" "(-3153 1780 -1489) (-3153 1520 -1489) (-3152 1520 -1489)"
+			"plane" "(-3154 1779 -1489) (-3154 1519 -1489) (-3153 1519 -1489)"
 			"material" "METAL/WALL011F"
-			"uaxis" "[0 -1 0 960] 0.25"
-			"vaxis" "[-1 0 0 -128] 0.25"
+			"uaxis" "[0 -1 0 956] 0.25"
+			"vaxis" "[-1 0 0 -132] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -42834,10 +42834,10 @@ world
 		side
 		{
 			"id" "29396"
-			"plane" "(-3152 1520 -1485) (-3152 1520 -1489) (-3153 1520 -1489)"
+			"plane" "(-3153 1519 -1485) (-3153 1519 -1489) (-3154 1519 -1489)"
 			"material" "METAL/WALL011F"
 			"uaxis" "[0 0 1 400] 0.25"
-			"vaxis" "[-1 0 0 -128] 0.25"
+			"vaxis" "[-1 0 0 -132] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -42845,10 +42845,10 @@ world
 		side
 		{
 			"id" "29395"
-			"plane" "(-3153 1520 -1485) (-3153 1780 -1485) (-3152 1780 -1485)"
+			"plane" "(-3154 1519 -1485) (-3154 1779 -1485) (-3153 1779 -1485)"
 			"material" "METAL/WALL011F"
-			"uaxis" "[0 1 0 -960] 0.25"
-			"vaxis" "[-1 0 0 -128] 0.25"
+			"uaxis" "[0 1 0 -956] 0.25"
+			"vaxis" "[-1 0 0 -132] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -73469,7 +73469,7 @@ world
 		{
 			"id" "31487"
 			"plane" "(-2060 2784 -1450) (-2060 2496 -1450) (-1712 2496 -1278.36)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "METAL/WALL011E"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -16] 0.25"
 			"rotation" "0"
@@ -85781,7 +85781,7 @@ entity
 	"angles" "-85 270 90"
 	"pitch" "-85"
 	"spawnflags" "0"
-	"origin" "-1487.41 2188.4 -1364.38"
+	"origin" "-1500 2188.4 -1354"
 	editor
 	{
 		"color" "220 30 220"
@@ -85807,7 +85807,7 @@ entity
 	"angles" "-85 90 90"
 	"pitch" "-85"
 	"spawnflags" "0"
-	"origin" "-3520 1843.61 -1364.38"
+	"origin" "-3489 1843 -1364.38"
 	editor
 	{
 		"color" "220 30 220"
@@ -87083,7 +87083,7 @@ entity
 	"model" "models/props_lights/lamp001.mdl"
 	"skin" "0"
 	"solid" "0"
-	"origin" "-1488 2272 -1332"
+	"origin" "-1500 2271 -1332"
 	editor
 	{
 		"color" "255 255 0"
@@ -87111,7 +87111,7 @@ entity
 	"model" "models/props_lights/lamp001.mdl"
 	"skin" "0"
 	"solid" "0"
-	"origin" "-3519.41 1760 -1332"
+	"origin" "-3489 1760 -1346"
 	editor
 	{
 		"color" "255 255 0"
@@ -87150,52 +87150,13 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"spawnflags" "0"
-	"origin" "-2492 2016 -1693"
+	"origin" "-2496 2018 -1693"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[13500 5500]"
-	}
-}
-entity
-{
-	"id" "15349"
-	"classname" "prop_dynamic"
-	"angles" "0 0 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/effects/cappoint_hologram.mdl"
-	"modelscale" "1.0"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"origin" "-2492 2016 -1692.94"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 6000]"
 	}
 }
 cameras
