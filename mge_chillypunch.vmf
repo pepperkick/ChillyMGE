@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "62"
+	"mapversion" "63"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "62"
+	"mapversion" "63"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -80814,7 +80814,7 @@ world
 		{
 			"id" "33276"
 			"plane" "(-2182 2072.89 -1578.99) (-2069.68 2072.89 -1578.99) (-2069.68 1959.57 -1578.99)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS2"
+			"material" "CHILLYMGE/TOOLSBLOCKBULLETS3"
 			"uaxis" "[1 0 0 20] 0.25"
 			"vaxis" "[0 -1 0 3.55566] 0.25"
 			"rotation" "0"
@@ -80825,7 +80825,7 @@ world
 		{
 			"id" "33275"
 			"plane" "(-2182 1959.57 -1643) (-2069.68 1959.57 -1643) (-2069.68 2072.89 -1643)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS2"
+			"material" "CHILLYMGE/TOOLSBLOCKBULLETS3"
 			"uaxis" "[1 0 0 20] 0.25"
 			"vaxis" "[0 -1 0 3.55566] 0.25"
 			"rotation" "0"
@@ -80836,7 +80836,7 @@ world
 		{
 			"id" "33274"
 			"plane" "(-2182 2072.89 -1578.99) (-2182 1959.57 -1578.99) (-2182 1959.57 -1643)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS2"
+			"material" "CHILLYMGE/TOOLSBLOCKBULLETS3"
 			"uaxis" "[0 1 0 -3.55566] 0.25"
 			"vaxis" "[0 0 -1 0.262695] 0.25"
 			"rotation" "0"
@@ -80847,7 +80847,7 @@ world
 		{
 			"id" "33273"
 			"plane" "(-2069.68 2072.89 -1643) (-2069.68 1959.57 -1643) (-2069.68 1959.57 -1578.99)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS2"
+			"material" "CHILLYMGE/TOOLSBLOCKBULLETS3"
 			"uaxis" "[0 1 0 -3.55566] 0.25"
 			"vaxis" "[0 0 -1 0.262695] 0.25"
 			"rotation" "0"
@@ -80858,7 +80858,7 @@ world
 		{
 			"id" "33272"
 			"plane" "(-2069.68 2072.89 -1578.99) (-2182 2072.89 -1578.99) (-2182 2072.89 -1643)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS2"
+			"material" "CHILLYMGE/TOOLSBLOCKBULLETS3"
 			"uaxis" "[1 0 0 20] 0.25"
 			"vaxis" "[0 0 -1 0.262695] 0.25"
 			"rotation" "0"
@@ -80869,7 +80869,7 @@ world
 		{
 			"id" "33271"
 			"plane" "(-2069.68 1959.57 -1643) (-2182 1959.57 -1643) (-2182 1959.57 -1578.99)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS2"
+			"material" "CHILLYMGE/TOOLSBLOCKBULLETS3"
 			"uaxis" "[1 0 0 20] 0.25"
 			"vaxis" "[0 0 -1 0.262695] 0.25"
 			"rotation" "0"
