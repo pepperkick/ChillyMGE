@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "68"
+	"mapversion" "70"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "68"
+	"mapversion" "70"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -80346,6 +80346,82 @@ world
 	}
 	solid
 	{
+		"id" "16851"
+		side
+		{
+			"id" "33300"
+			"plane" "(-3294.22 1247.65 -1700) (-3294.22 1247.65 -1796) (-3294.22 1512.65 -1796)"
+			"material" "WOOD/WOOD_FLOOR001"
+			"uaxis" "[0 -1 0 -125.411] 0.25"
+			"vaxis" "[0 0 -1 -784.013] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33299"
+			"plane" "(-2943.22 1512.65 -1700) (-2943.22 1512.65 -1796) (-2943.22 1247.65 -1796)"
+			"material" "WOOD/WOOD_FLOOR001"
+			"uaxis" "[0 -1 0 -125.411] 0.25"
+			"vaxis" "[0 0 -1 -784.013] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33298"
+			"plane" "(-2943.22 1247.65 -1700) (-2943.22 1247.65 -1796) (-3294.22 1247.65 -1796)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -56.8604] 0.25"
+			"vaxis" "[0 0 -1 -16.0132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33297"
+			"plane" "(-3294.22 1512.65 -1700) (-3294.22 1512.65 -1796) (-2943.22 1512.65 -1796)"
+			"material" "WOOD/WOOD_FLOOR001"
+			"uaxis" "[-1 0 0 -760.86] 0.25"
+			"vaxis" "[0 0 -1 -784.013] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33296"
+			"plane" "(-3294.22 1512.64 -1796) (-3294.22 1247.64 -1796) (-2943.22 1247.65 -1796)"
+			"material" "WOOD/WOOD_FLOOR001"
+			"uaxis" "[-1 0 0 -760.86] 0.25"
+			"vaxis" "[0 1 0 125.411] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33295"
+			"plane" "(-3294.22 1247.65 -1700) (-3294.22 1512.65 -1700) (-2943.22 1512.64 -1700)"
+			"material" "CONCRETE/CONCRETEFLOOR003"
+			"uaxis" "[0 -1 0 -125.411] 0.25"
+			"vaxis" "[-1 0 0 -760.86] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 245 130"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "27"
 		side
 		{
@@ -80879,82 +80955,6 @@ world
 		{
 			"color" "183 184 0"
 			"groupid" "72"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "16851"
-		side
-		{
-			"id" "33300"
-			"plane" "(-3294.22 1247.65 -1698.39) (-3294.22 1247.65 -1794.39) (-3294.22 1512.65 -1794.39)"
-			"material" "WOOD/WOOD_FLOOR001"
-			"uaxis" "[0 -1 0 -125.395] 0.25"
-			"vaxis" "[0 0 -1 -777.57] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33299"
-			"plane" "(-2943.22 1512.65 -1698.39) (-2943.22 1512.65 -1794.39) (-2943.22 1247.65 -1794.39)"
-			"material" "WOOD/WOOD_FLOOR001"
-			"uaxis" "[0 -1 0 -125.395] 0.25"
-			"vaxis" "[0 0 -1 -777.57] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33298"
-			"plane" "(-2943.22 1247.65 -1698.39) (-2943.22 1247.65 -1794.39) (-3294.22 1247.65 -1794.39)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 -56.8604] 0.25"
-			"vaxis" "[0 0 -1 -9.56982] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33297"
-			"plane" "(-3294.22 1512.65 -1698.39) (-3294.22 1512.65 -1794.39) (-2943.22 1512.65 -1794.39)"
-			"material" "WOOD/WOOD_FLOOR001"
-			"uaxis" "[-1 0 0 -760.86] 0.25"
-			"vaxis" "[0 0 -1 -777.57] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33296"
-			"plane" "(-3294.22 1512.65 -1794.39) (-3294.22 1247.65 -1794.39) (-2943.22 1247.65 -1794.39)"
-			"material" "WOOD/WOOD_FLOOR001"
-			"uaxis" "[-1 0 0 -760.86] 0.25"
-			"vaxis" "[0 1 0 125.395] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33295"
-			"plane" "(-3294.22 1247.65 -1698.39) (-3294.22 1512.65 -1698.39) (-2943.22 1512.65 -1698.39)"
-			"material" "CONCRETE/CONCRETEFLOOR003"
-			"uaxis" "[0 -1 0 -125.395] 0.25"
-			"vaxis" "[-1 0 0 -760.86] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 245 130"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
