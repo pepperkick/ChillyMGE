@@ -2,3 +2,7 @@
 *.log
 *.prt
 *.vmx
+*.tga
+*.mtl
+*.obj
+*.smd
