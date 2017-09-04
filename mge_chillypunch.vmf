@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "73"
+	"mapversion" "80"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "73"
+	"mapversion" "80"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -81006,10 +81006,10 @@ entity
 {
 	"id" "3665"
 	"classname" "light_environment"
-	"_ambient" "255 185 160 60"
+	"_ambient" "255 185 160 20"
 	"_ambientHDR" "-1 -1 -1 1"
 	"_AmbientScaleHDR" "1"
-	"_light" "200 215 255 230"
+	"_light" "255 255 255 250"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"angles" "0 270 0"
@@ -81286,33 +81286,6 @@ entity
 }
 entity
 {
-	"id" "14620"
-	"classname" "light_spot"
-	"_cone" "50"
-	"_distance" "0"
-	"_exponent" "1"
-	"_fifty_percent_distance" "512"
-	"_inner_cone" "10"
-	"_light" "230 197 147 300"
-	"_lightHDR" "230 197 147 300"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"_zero_percent_distance" "768"
-	"angles" "-85 270 90"
-	"pitch" "-85"
-	"spawnflags" "0"
-	"style" "10"
-	"origin" "-1500 2188.4 -1354"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 12500]"
-	}
-}
-entity
-{
 	"id" "14625"
 	"classname" "light_spot"
 	"_cone" "50"
@@ -81328,8 +81301,8 @@ entity
 	"angles" "-85 90 90"
 	"pitch" "-85"
 	"spawnflags" "0"
-	"style" "8"
-	"origin" "-3489 1843 -1364.38"
+	"style" "0"
+	"origin" "-3489 1844 -1371"
 	editor
 	{
 		"color" "220 30 220"
@@ -82791,6 +82764,48 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 12000]"
+	}
+}
+entity
+{
+	"id" "22244"
+	"classname" "env_soundscape"
+	"radius" "1648"
+	"soundscape" "Badlands.Outside"
+	"origin" "-2383.21 2164.01 -1692.94"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13000 15000]"
+	}
+}
+entity
+{
+	"id" "14620"
+	"classname" "light_spot"
+	"_cone" "50"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "512"
+	"_inner_cone" "10"
+	"_light" "230 197 147 300"
+	"_lightHDR" "230 197 147 300"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "768"
+	"angles" "-85 270 90"
+	"pitch" "-85"
+	"spawnflags" "0"
+	"style" "10"
+	"origin" "-1500 2186 -1358"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12500]"
 	}
 }
 cameras
