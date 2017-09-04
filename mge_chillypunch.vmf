@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "70"
+	"mapversion" "73"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "70"
+	"mapversion" "73"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -12043,82 +12043,6 @@ world
 		editor
 		{
 			"color" "0 247 248"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "14194"
-		side
-		{
-			"id" "27649"
-			"plane" "(-3302 2228 -1700) (-3302 2228 -1796) (-3302 2493 -1796)"
-			"material" "WOOD/WOOD_FLOOR001"
-			"uaxis" "[0 -1 0 724] 0.25"
-			"vaxis" "[0 0 -1 -784] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "27648"
-			"plane" "(-2951 2493 -1700) (-2951 2493 -1796) (-2951 2228 -1796)"
-			"material" "WOOD/WOOD_FLOOR001"
-			"uaxis" "[0 -1 0 724] 0.25"
-			"vaxis" "[0 0 -1 -784] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "27647"
-			"plane" "(-2951 2228 -1700) (-2951 2228 -1796) (-3302 2228 -1796)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 -24] 0.25"
-			"vaxis" "[0 0 -1 -16] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "27646"
-			"plane" "(-3302 2493 -1700) (-3302 2493 -1796) (-2951 2493 -1796)"
-			"material" "WOOD/WOOD_FLOOR001"
-			"uaxis" "[-1 0 0 -792] 0.25"
-			"vaxis" "[0 0 -1 -784] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "27645"
-			"plane" "(-3302 2493 -1796) (-3302 2228 -1796) (-2951 2228 -1796)"
-			"material" "WOOD/WOOD_FLOOR001"
-			"uaxis" "[-1 0 0 -792] 0.25"
-			"vaxis" "[0 1 0 -724] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "27644"
-			"plane" "(-3302 2228 -1700) (-3302 2493 -1700) (-2951 2493 -1700)"
-			"material" "CONCRETE/CONCRETEFLOOR003"
-			"uaxis" "[0 -1 0 724] 0.25"
-			"vaxis" "[-1 0 0 -792] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 245 130"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -81082,15 +81006,15 @@ entity
 {
 	"id" "3665"
 	"classname" "light_environment"
-	"_ambient" "255 255 255 20"
+	"_ambient" "255 185 160 60"
 	"_ambientHDR" "-1 -1 -1 1"
 	"_AmbientScaleHDR" "1"
-	"_light" "255 255 255 200"
+	"_light" "200 215 255 230"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"angles" "0 270 0"
 	"pitch" "-65"
-	"SunSpreadAngle" "5"
+	"SunSpreadAngle" "3"
 	"origin" "176 -448 256"
 	editor
 	{
@@ -81318,7 +81242,7 @@ entity
 	"_fifty_percent_distance" "512"
 	"_inner_cone" "10"
 	"_light" "235 198 141 170"
-	"_lightHDR" "235 198 141 200"
+	"_lightHDR" "235 198 141 300"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "768"
@@ -81344,7 +81268,7 @@ entity
 	"_fifty_percent_distance" "512"
 	"_inner_cone" "10"
 	"_light" "235 198 141 300"
-	"_lightHDR" "235 198 141 200"
+	"_lightHDR" "235 198 141 300"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "768"
@@ -81370,13 +81294,14 @@ entity
 	"_fifty_percent_distance" "512"
 	"_inner_cone" "10"
 	"_light" "230 197 147 300"
-	"_lightHDR" "-1 -1 -1 1"
+	"_lightHDR" "230 197 147 300"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "768"
 	"angles" "-85 270 90"
 	"pitch" "-85"
 	"spawnflags" "0"
+	"style" "10"
 	"origin" "-1500 2188.4 -1354"
 	editor
 	{
@@ -81396,13 +81321,14 @@ entity
 	"_fifty_percent_distance" "512"
 	"_inner_cone" "10"
 	"_light" "230 197 147 300"
-	"_lightHDR" "-1 -1 -1 1"
+	"_lightHDR" "230 197 147 300"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "768"
 	"angles" "-85 90 90"
 	"pitch" "-85"
 	"spawnflags" "0"
+	"style" "8"
 	"origin" "-3489 1843 -1364.38"
 	editor
 	{
@@ -82607,7 +82533,7 @@ entity
 	"model" "models/chillymge/badlands_train_boxes.mdl"
 	"screenspacefade" "0"
 	"skin" "0"
-	"solid" "2"
+	"solid" "0"
 	"origin" "-2005 2016 -1611"
 	editor
 	{
@@ -82797,7 +82723,7 @@ entity
 	"_fifty_percent_distance" "512"
 	"_inner_cone" "10"
 	"_light" "235 198 141 170"
-	"_lightHDR" "235 198 141 200"
+	"_lightHDR" "235 198 141 300"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "768"
@@ -82851,7 +82777,7 @@ entity
 	"_fifty_percent_distance" "512"
 	"_inner_cone" "10"
 	"_light" "235 198 141 300"
-	"_lightHDR" "235 198 141 200"
+	"_lightHDR" "235 198 141 300"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "768"
