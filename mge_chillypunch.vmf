@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "112"
+	"mapversion" "113"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "112"
+	"mapversion" "113"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -100562,6 +100562,64 @@ entity
 		"logicalpos" "[500 16000]"
 	}
 }
+entity
+{
+	"id" "154653"
+	"classname" "prop_static"
+	"angles" "1.49995 180.013 -179.5"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_trainyard/train_billboard001.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1561 1590.95 -1820.1"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-16268 -3768]"
+	}
+}
+entity
+{
+	"id" "155213"
+	"classname" "prop_static"
+	"angles" "1.49995 180.013 -179.5"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_trainyard/train_billboard001.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-3723.24 3128.26 -1821.38"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-16268 -3768]"
+	}
+}
 cameras
 {
 	"activecamera" "2"
@@ -100577,8 +100635,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-3361.24 2162.53 -1410.57]"
-		"look" "[-3608.82 2639.51 -1327.38]"
+		"position" "[-1956.59 1643.26 -1760.06]"
+		"look" "[-1416.99 1581.13 -1786.63]"
 	}
 }
 cordon
