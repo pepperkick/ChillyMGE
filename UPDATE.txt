@@ -1,0 +1,8 @@
+//UPDATE//
+Please record all the updates and logs to here.
+
+5 / 9 / 2017 - 9:47 PM :
+- Added Badlands Spire, Granary Middle, Product Middle
+- Adjusted light_env for better view
+- Fixed major clippings in both sh*thouses at Badlands Middle
+* Please send in the bball sign model file.
