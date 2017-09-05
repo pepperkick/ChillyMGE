@@ -10,3 +10,9 @@ Please record all the updates and logs to here.
 5 / 9 / 2017 - 10:20 PM :
 - Update light_env from 500 to 400
 - Fixed nodraw texture at Badlands Middle
+
+
+6 / 9 / 2017 - 12:13 AM :
+- Updated Lights to Badlands Spire and Granary Middle
+- Fixed displacement and clippings in Badlands Middle
+- Fixed player clip in Badlands Spire
