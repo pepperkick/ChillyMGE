@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "116"
+	"mapversion" "118"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "116"
+	"mapversion" "118"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -67669,9 +67669,9 @@ world
 		side
 		{
 			"id" "31267"
-			"plane" "(-2624 3367 -1600.1) (-2624 3375 -1600.1) (-2192 3375 -1534)"
+			"plane" "(-2624 3364 -1600.1) (-2624 3372 -1600.1) (-2192 3372 -1534)"
 			"material" "WOOD/WOOD_BRIDGE001"
-			"uaxis" "[0 1 0 -196] 0.25"
+			"uaxis" "[0 1 0 -184] 0.25"
 			"vaxis" "[-1 0 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -67680,10 +67680,10 @@ world
 		side
 		{
 			"id" "31266"
-			"plane" "(-2520.66 3367 -1604) (-2192 3367 -1553) (-2192 3375 -1553)"
+			"plane" "(-2520.66 3364 -1604) (-2192 3364 -1553) (-2192 3372 -1553)"
 			"material" "WOOD/WOOD_BRIDGE001"
 			"uaxis" "[1 0 0 -704] 0.25"
-			"vaxis" "[0 -1 0 292] 0.25"
+			"vaxis" "[0 -1 0 280] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -67691,9 +67691,9 @@ world
 		side
 		{
 			"id" "31265"
-			"plane" "(-2624 3375 -1604) (-2624 3375 -1600.1) (-2624 3367 -1600.1)"
+			"plane" "(-2624 3372 -1604) (-2624 3372 -1600.11) (-2624 3364 -1600.11)"
 			"material" "WOOD/WOOD_BRIDGE001"
-			"uaxis" "[0 1 0 -220] 0.25"
+			"uaxis" "[0 1 0 -208] 0.25"
 			"vaxis" "[0 0 -1 -272] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -67702,9 +67702,9 @@ world
 		side
 		{
 			"id" "31264"
-			"plane" "(-2192 3375 -1553) (-2192 3367 -1553) (-2192 3367 -1534)"
+			"plane" "(-2192 3372 -1553) (-2192 3364 -1553) (-2192 3364 -1534)"
 			"material" "WOOD/WOOD_BRIDGE001"
-			"uaxis" "[0 1 0 -220] 0.25"
+			"uaxis" "[0 1 0 -208] 0.25"
 			"vaxis" "[0 0 -1 -272] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -67713,9 +67713,9 @@ world
 		side
 		{
 			"id" "31263"
-			"plane" "(-2624 3367 -1600.1) (-2192 3367 -1534) (-2192 3367 -1553)"
+			"plane" "(-2624 3364 -1600.1) (-2192 3364 -1534) (-2192 3364 -1553)"
 			"material" "WOOD/WOOD_BRIDGE001"
-			"uaxis" "[0.9852 -0.0774 0.1529 -542.193] 0.25"
+			"uaxis" "[0.9852 -0.0774 0.1529 -543.122] 0.25"
 			"vaxis" "[-0.1533 0 0.9882 74.0446] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -67724,7 +67724,7 @@ world
 		side
 		{
 			"id" "31262"
-			"plane" "(-2520.66 3375 -1604) (-2192 3375 -1553) (-2192 3375 -1534)"
+			"plane" "(-2520.66 3372 -1604) (-2192 3372 -1553) (-2192 3372 -1534)"
 			"material" "WOOD/WOOD_BRIDGE001"
 			"uaxis" "[-1 0 0 704] 0.25"
 			"vaxis" "[0 0 -1 -272] 0.25"
@@ -67735,10 +67735,10 @@ world
 		side
 		{
 			"id" "31261"
-			"plane" "(-2624 3375 -1604) (-2624 3367 -1604) (-2520.66 3367 -1604)"
+			"plane" "(-2624 3372 -1604) (-2624 3364 -1604) (-2520.66 3364 -1604)"
 			"material" "WOOD/WOOD_BRIDGE001"
 			"uaxis" "[1 0 0 -704] 0.25"
-			"vaxis" "[0 -1 0 220] 0.25"
+			"vaxis" "[0 -1 0 208] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -96844,6 +96844,82 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "155757"
+		side
+		{
+			"id" "81508"
+			"plane" "(-1619 2127 -1421) (-1619 2127 -1423) (-1619 2612 -1423)"
+			"material" "METAL/WALL011F"
+			"uaxis" "[0 0 1 -92] 0.25"
+			"vaxis" "[0 1 0 944] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81507"
+			"plane" "(-1443 2612 -1367) (-1443 2612 -1369) (-1443 2127 -1369)"
+			"material" "METAL/WALL011F"
+			"uaxis" "[0 1 0 816] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81506"
+			"plane" "(-1443 2127 -1367) (-1443 2127 -1369) (-1619 2127 -1423)"
+			"material" "METAL/WALL011F"
+			"uaxis" "[0.4176 0 -0.9087 -217.93] 0.25"
+			"vaxis" "[-0.908123 -0.0325655 -0.417319 -251.175] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81505"
+			"plane" "(-1619 2612 -1421) (-1619 2612 -1423) (-1443 2612 -1369)"
+			"material" "METAL/WALL011G"
+			"uaxis" "[-1 0 0 -28] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81504"
+			"plane" "(-1619 2127 -1421) (-1619 2612 -1421) (-1443 2612 -1367)"
+			"material" "METAL/WALL011F"
+			"uaxis" "[0 -1 0 -432] 0.25"
+			"vaxis" "[-0.967123 0 -0.254269 710.617] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81503"
+			"plane" "(-1619 2612 -1423) (-1619 2127 -1423) (-1443 2127 -1369)"
+			"material" "METAL/WALL011E"
+			"uaxis" "[0 1 0 688] 0.25"
+			"vaxis" "[0 0 -1 -268] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 252 165"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "107"
@@ -100632,8 +100708,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-2179.27 2471.93 -1651.08]"
-		"look" "[-1672.33 2463.36 -1847.74]"
+		"position" "[-2590.07 3247.28 -1704.5]"
+		"look" "[-2177.26 3399.42 -1384.86]"
 	}
 }
 cordon
