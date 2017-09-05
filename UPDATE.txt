@@ -6,3 +6,7 @@ Please record all the updates and logs to here.
 - Adjusted light_env for better view
 - Fixed major clippings in both sh*thouses at Badlands Middle
 * Please send in the bball sign model file.
+
+5 / 9 / 2017 - 10:20 PM :
+- Update light_env from 500 to 400
+- Fixed nodraw texture at Badlands Middle
