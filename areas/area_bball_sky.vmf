@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "149"
+	"mapversion" "150"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "181089"
-	"mapversion" "149"
+	"mapversion" "150"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -17950,39 +17950,5 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14268]"
-	}
-}
-entity
-{
-	"id" "181547"
-	"classname" "info_player_teamspawn"
-	"angles" "0 0 0"
-	"spawnflags" "511"
-	"StartDisabled" "0"
-	"TeamNum" "2"
-	"origin" "295 1520 17"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -16268]"
-	}
-}
-entity
-{
-	"id" "181549"
-	"classname" "info_player_teamspawn"
-	"angles" "0 180 0"
-	"spawnflags" "511"
-	"StartDisabled" "0"
-	"TeamNum" "3"
-	"origin" "1890 1525 17"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 16000]"
 	}
 }
