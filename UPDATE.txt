@@ -19,3 +19,6 @@ Please record all the updates and logs to here.
 6 / 9 / 2017 - 9:27 AM :
 - Separated all areas into prefabs
 - Aligned all area origins to
+
+6 / 9 / 2017 - 8:25 PM :
+- Added a new final folder to distinguish final vmf from WIP vmf.
