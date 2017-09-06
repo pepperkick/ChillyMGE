@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "150"
+	"mapversion" "151"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -11,13 +11,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "128"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "178900"
-	"mapversion" "150"
+	"mapversion" "151"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11604,7 +11604,7 @@ world
 			dispinfo
 			{
 				"power" "4"
-				"startposition" "[1496 47.7747 80]"
+				"startposition" "[1496 47.7734 80]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -11719,7 +11719,7 @@ world
 					"row6" "0 0 9 1 9 9 9 0 1 9 9 1 1 9 1 9 1 1 0 0 0 0 0 9 9 9 9 9 9 9 9 9"
 					"row7" "0 0 0 1 9 9 0 0 0 0 0 0 0 0 0 9 1 0 0 0 0 0 9 9 9 9 9 9 9 9 9 9"
 					"row8" "1 0 0 0 0 0 0 9 9 9 9 9 9 9 1 9 1 1 0 0 1 1 9 9 9 9 9 9 9 9 9 9"
-					"row9" "1 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 1 1 0 0 9 1 9 9 9 9 9 9 9 9 9 9"
+					"row9" "1 9 9 9 9 9 9 9 9 9 9 9 9 9 1 9 1 1 0 0 9 1 9 9 9 9 9 9 9 9 9 9"
 					"row10" "9 9 9 9 1 9 9 9 9 9 9 9 9 9 9 9 9 1 0 0 1 1 9 9 9 9 9 9 1 9 9 9"
 					"row11" "9 9 9 9 9 9 1 1 1 1 9 9 9 9 9 9 9 1 0 0 1 0 9 9 9 9 9 9 1 9 1 9"
 					"row12" "9 9 9 9 1 9 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 9 9 9 9 9 9 9 9 1 1"
@@ -15591,7 +15591,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1576 687.775 912]"
+				"startposition" "[1576 687.773 912]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -15726,7 +15726,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1576 687.775 528]"
+				"startposition" "[1576 687.777 528]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -15861,7 +15861,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2008 687.775 528]"
+				"startposition" "[2008 687.773 528]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -16266,7 +16266,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1672 431.775 528]"
+				"startposition" "[1672 431.777 528]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -16536,7 +16536,7 @@ world
 			dispinfo
 			{
 				"power" "4"
-				"startposition" "[472 47.7747 80]"
+				"startposition" "[472 47.7734 80]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -17013,7 +17013,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1432 2159.77 140.303]"
+				"startposition" "[1432 2159.77 140.302]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -17148,7 +17148,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1297.72 2008.37 268.291]"
+				"startposition" "[1297.72 2008.38 268.291]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -17283,7 +17283,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1265.73 2063.77 140.299]"
+				"startposition" "[1265.73 2063.77 140.301]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -17553,7 +17553,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1099.46 1967.77 140.298]"
+				"startposition" "[1099.45 1967.76 140.302]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -18093,7 +18093,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1328.23 2367.29 176]"
+				"startposition" "[1328.23 2367.28 176]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -18768,7 +18768,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1371.45 1024.38 400]"
+				"startposition" "[1371.45 1024.37 400]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -19038,7 +19038,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1537.71 1120.38 400]"
+				"startposition" "[1537.72 1120.37 400]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -19785,7 +19785,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1368 687.775 592]"
+				"startposition" "[1368 687.773 592]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -19920,7 +19920,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1368 687.775 388]"
+				"startposition" "[1368 687.773 388]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -20325,7 +20325,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1395.2 740.272 556.469]"
+				"startposition" "[1395.2 740.272 556.477]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -20460,7 +20460,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1395.23 740.365 556.5]"
+				"startposition" "[1395.23 740.364 556.499]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -20595,7 +20595,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1400.94 756.674 561.152]"
+				"startposition" "[1400.94 756.674 561.148]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -23391,7 +23391,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[664.012 2607.77 944]"
+				"startposition" "[663.988 2607.77 944]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -23892,7 +23892,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[536 527.525 1209.14]"
+				"startposition" "[536 527.524 1209.14]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -24027,7 +24027,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[55.9998 543.525 1056]"
+				"startposition" "[56 543.525 1056]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -24162,7 +24162,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[39.9998 527.525 1209.14]"
+				"startposition" "[40 527.525 1209.14]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -24297,7 +24297,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[39.9998 527.525 1213.14]"
+				"startposition" "[40 527.525 1213.14]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -24432,7 +24432,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[39.9998 655.525 1316]"
+				"startposition" "[40 655.523 1316]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -24567,7 +24567,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[39.9998 783.525 1209.14]"
+				"startposition" "[40 783.525 1209.14]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -24702,7 +24702,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[55.9998 767.525 1056]"
+				"startposition" "[56 767.525 1056]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -24837,7 +24837,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[55.9998 767.525 880]"
+				"startposition" "[56 767.525 880]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -25782,7 +25782,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[184 719.525 1144]"
+				"startposition" "[184 719.524 1144]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -25917,7 +25917,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[184 719.525 1148]"
+				"startposition" "[184 719.523 1148]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -26052,7 +26052,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[440 719.525 1144]"
+				"startposition" "[440 719.524 1144]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -26187,7 +26187,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[184 719.525 1144]"
+				"startposition" "[184 719.523 1144]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -26727,7 +26727,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[168 1631.52 1149.14]"
+				"startposition" "[168 1631.53 1149.14]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -26997,7 +26997,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[464 1631.52 1145.14]"
+				"startposition" "[464 1631.52 1145.13]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -27537,7 +27537,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[464 1759.52 1248]"
+				"startposition" "[464 1759.52 1248.01]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -28077,7 +28077,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[216 1327.53 1016]"
+				"startposition" "[216 1327.52 1016]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -28617,7 +28617,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[536 655.525 1312]"
+				"startposition" "[536 655.523 1312]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -28752,7 +28752,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[55.9998 543.525 880]"
+				"startposition" "[56 543.525 880]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -29022,7 +29022,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[168 1631.53 1145.14]"
+				"startposition" "[168 1631.53 1145.13]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -48979,7 +48979,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "prop_cap_1"
-	"origin" "1276 1695.77 736.67"
+	"origin" "1276 1696 735"
 	editor
 	{
 		"color" "220 30 220"
