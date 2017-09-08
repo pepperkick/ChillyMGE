@@ -30,3 +30,7 @@ Please record all the updates and logs to here.
 8 / 9 / 2017 - 9:22 PM :
 - Fixed lightings, clippings, props and brushes
 - Updated train's height
+
+9 / 9 / 2017 - 2:08 AM :
+- Removed health pack from sun shine
+- Fixed nodraw texture at process
