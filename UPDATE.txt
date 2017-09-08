@@ -26,3 +26,7 @@ Please record all the updates and logs to here.
 7 / 9 / 2017 - 12:15 AM :
 - Fixed lightings, clippings, textures and displacements.
 - Adjusted lighting to blueish
+
+8 / 9 / 2017 - 9:22 PM :
+- Fixed lightings, clippings, props and brushes
+- Updated train's height
