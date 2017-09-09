@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "169"
+	"mapversion" "170"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,12 +17,12 @@ viewsettings
 world
 {
 	"id" "177457"
-	"mapversion" "169"
+	"mapversion" "170"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
-	"skyname" "sky_day01_01"
+	"skyname" "sky_trainyard_01"
 	solid
 	{
 		"id" "177458"
@@ -62271,8 +62271,8 @@ entity
 	"_distance" "0"
 	"_exponent" "0.5"
 	"_inner_cone" "20"
-	"_light" "255 255 255 800"
-	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 185 125 800"
+	"_lightHDR" "255 185 125 800"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
@@ -62338,8 +62338,8 @@ entity
 	"_distance" "0"
 	"_exponent" "0.5"
 	"_inner_cone" "20"
-	"_light" "255 255 255 800"
-	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 185 125 800"
+	"_lightHDR" "255 185 125 800"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
@@ -62385,7 +62385,7 @@ entity
 	"_distance" "0"
 	"_exponent" "0.5"
 	"_inner_cone" "20"
-	"_light" "255 255 255 800"
+	"_light" "255 185 125 800"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
