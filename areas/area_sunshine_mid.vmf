@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "28"
+	"mapversion" "29"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "1859525"
-	"mapversion" "28"
+	"mapversion" "29"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -20570,7 +20570,7 @@ world
 		side
 		{
 			"id" "27688"
-			"plane" "(1088 3840 188.53) (1088 3840 60.5296) (1088 3872 60.5296)"
+			"plane" "(1088 3840 196) (1088 3840 60.5313) (1088 3872 60.5355)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 57] 0.25"
 			"vaxis" "[0 0 -1 -10.8816] 0.25"
@@ -20581,7 +20581,7 @@ world
 		side
 		{
 			"id" "27687"
-			"plane" "(1280 3872 188.53) (1280 3872 60.5296) (1280 3840 60.5296)"
+			"plane" "(1280 3872 196) (1280 3872 60.5313) (1280 3840 60.5355)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 57] 0.25"
 			"vaxis" "[0 0 -1 -10.8816] 0.25"
@@ -20592,7 +20592,7 @@ world
 		side
 		{
 			"id" "27686"
-			"plane" "(1280 3840 188.53) (1280 3840 60.5296) (1088 3840 60.5296)"
+			"plane" "(1280 3840 196) (1280 3840 60.5313) (1088 3840 60.5355)"
 			"material" "BRICK/BRICKWALL003"
 			"uaxis" "[1 0 0 289] 0.25"
 			"vaxis" "[0 0 -1 -365.882] 0.25"
@@ -20603,7 +20603,7 @@ world
 		side
 		{
 			"id" "27685"
-			"plane" "(1088 3872 188.53) (1088 3872 60.5296) (1280 3872 60.5296)"
+			"plane" "(1088 3872 196) (1088 3872 60.5313) (1280 3872 60.5355)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -13.8816] 0.25"
@@ -20625,7 +20625,7 @@ world
 		side
 		{
 			"id" "27683"
-			"plane" "(1088 3840 188.53) (1088 3872 188.53) (1280 3872 188.53)"
+			"plane" "(1088 3840 195.999) (1088 3872 195.999) (1280 3872 195.999)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -31850,7 +31850,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1072 2032 92.5296]"
+				"startposition" "[1072 2032 92.5313]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -32120,7 +32120,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1072 2032 -163.47]"
+				"startposition" "[1072 2032 -163.469]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -32525,7 +32525,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1360 2032 140.53]"
+				"startposition" "[1360 2032 140.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -32795,7 +32795,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1504 1936 140.53]"
+				"startposition" "[1504 1936 140.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -32930,7 +32930,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1536 1760 140.53]"
+				"startposition" "[1536 1760 140.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -33200,7 +33200,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1536 1760 -195.47]"
+				"startposition" "[1536 1760 -195.473]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -33335,7 +33335,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1504 1936 -195.47]"
+				"startposition" "[1504 1936 -195.473]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -33470,7 +33470,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1360 2032 -195.47]"
+				"startposition" "[1360 2032 -195.473]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -34550,7 +34550,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1536 1520 332.53]"
+				"startposition" "[1536 1520 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -34685,7 +34685,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1504 1696 332.53]"
+				"startposition" "[1504 1696 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -34955,7 +34955,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1520 1488 140.53]"
+				"startposition" "[1520 1488 140.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -35225,7 +35225,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1360 1792 332.53]"
+				"startposition" "[1360 1792 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -36170,7 +36170,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1536 1136 332.53]"
+				"startposition" "[1536 1136 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -36845,7 +36845,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[1024 1760 332.53]"
+				"startposition" "[1024 1760 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -36980,7 +36980,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[640 1792 332.53]"
+				"startposition" "[640 1792 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -37115,7 +37115,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[640 2176 332.53]"
+				"startposition" "[640 2176 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -38330,7 +38330,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[3024 3856 92.5296]"
+				"startposition" "[3024 3856 92.5313]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -38600,7 +38600,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[3024 3856 -163.47]"
+				"startposition" "[3024 3856 -163.469]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -39005,7 +39005,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2736 3856 140.53]"
+				"startposition" "[2736 3856 140.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -39275,7 +39275,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2592 3952 140.53]"
+				"startposition" "[2592 3952 140.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -39410,7 +39410,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2560 4128 140.53]"
+				"startposition" "[2560 4128 140.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -39680,7 +39680,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2560 4128 -195.47]"
+				"startposition" "[2560 4128 -195.473]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -39815,7 +39815,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2592 3952.01 -195.47]"
+				"startposition" "[2592 3952 -195.473]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -39950,7 +39950,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2736 3856 -195.47]"
+				"startposition" "[2736 3856 -195.473]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -41030,7 +41030,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2560 4368 332.53]"
+				"startposition" "[2560 4368 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -41165,7 +41165,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2592 4192 332.53]"
+				"startposition" "[2592 4192 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -41435,7 +41435,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2576 4400 140.53]"
+				"startposition" "[2576 4400 140.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -41705,7 +41705,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2736 4096 332.53]"
+				"startposition" "[2736 4096 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -42650,7 +42650,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2560 4752 332.53]"
+				"startposition" "[2560 4752 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -43190,7 +43190,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[3072 4128 332.53]"
+				"startposition" "[3072 4128 332.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -44072,7 +44072,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2560 4128 -195.47]"
+				"startposition" "[2560 4128 -195.473]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -44207,7 +44207,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2576 4400 140.53]"
+				"startposition" "[2576 4400 140.531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
