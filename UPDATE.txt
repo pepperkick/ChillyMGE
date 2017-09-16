@@ -34,3 +34,6 @@ Please record all the updates and logs to here.
 9 / 9 / 2017 - 2:08 AM :
 - Removed health pack from sun shine
 - Fixed nodraw texture at process
+
+16 / 9 /2017 - 6:32 PM :
+-Updated Precision Headshot ( Added spectator cams, player clips and additional detailings )
