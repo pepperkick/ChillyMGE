@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "42"
+	"mapversion" "44"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "1859525"
-	"mapversion" "42"
+	"mapversion" "44"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -19571,7 +19571,7 @@ entity
 		side
 		{
 			"id" "34941"
-			"plane" "(2176 1856 1388.53) (2176 1856 292.53) (2176 2058 292.53)"
+			"plane" "(2176 1856 1388.53) (2176 1856 289.001) (2176 2060 289.005)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 57] 0.25"
 			"vaxis" "[0 0 -1 -10.8816] 0.25"
@@ -19582,7 +19582,7 @@ entity
 		side
 		{
 			"id" "34940"
-			"plane" "(2316 2058 1388.53) (2316 2058 292.53) (2316 1856 292.53)"
+			"plane" "(2316 2060 1388.53) (2316 2060 289.001) (2316 1856 289.005)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 57] 0.25"
 			"vaxis" "[0 0 -1 -10.8816] 0.25"
@@ -19593,7 +19593,7 @@ entity
 		side
 		{
 			"id" "34939"
-			"plane" "(2316 1856 1388.53) (2316 1856 292.53) (2176 1856 292.53)"
+			"plane" "(2316 1856 1388.53) (2316 1856 289.001) (2176 1856 289.005)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -13.8816] 0.25"
@@ -19604,7 +19604,7 @@ entity
 		side
 		{
 			"id" "34938"
-			"plane" "(2176 2058 1388.53) (2176 2058 292.53) (2316 2058 292.53)"
+			"plane" "(2176 2060 1388.53) (2176 2060 289.001) (2316 2060 289.005)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -13.8816] 0.25"
@@ -19615,7 +19615,7 @@ entity
 		side
 		{
 			"id" "34937"
-			"plane" "(2176 2058 292.53) (2176 1856 292.53) (2316 1856 292.53)"
+			"plane" "(2176 2060 289) (2176 1856 289) (2316 1856 289)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -19626,7 +19626,7 @@ entity
 		side
 		{
 			"id" "34936"
-			"plane" "(2176 1856 1388.53) (2176 2058 1388.53) (2316 2058 1388.53)"
+			"plane" "(2176 1856 1388.53) (2176 2060 1388.53) (2316 2060 1388.53)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
