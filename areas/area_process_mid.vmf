@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "25"
+	"mapversion" "26"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "3477724"
-	"mapversion" "25"
+	"mapversion" "26"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -49505,35 +49505,6 @@ entity
 }
 entity
 {
-	"id" "3487895"
-	"classname" "prop_static"
-	"angles" "-71.8304 250.317 -99.3502"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_forest/cliff_wall_02.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "760 4052 624"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 -9768]"
-	}
-}
-entity
-{
 	"id" "3487924"
 	"classname" "prop_static"
 	"angles" "0 180 0"
@@ -49849,64 +49820,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[13500 -5268]"
-	}
-}
-entity
-{
-	"id" "3487987"
-	"classname" "prop_static"
-	"angles" "-58.3144 255.536 48.343"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_forest/cliff_wall_02b.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "3140 640 756"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 -4768]"
-	}
-}
-entity
-{
-	"id" "3487991"
-	"classname" "prop_static"
-	"angles" "40.4062 127.358 -3.9338"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_forest/cliff_wall_02c.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "3116 596 971.026"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 -4268]"
 	}
 }
 entity
