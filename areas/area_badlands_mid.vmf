@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "188"
+	"mapversion" "189"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "176345"
-	"mapversion" "188"
+	"mapversion" "189"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -80866,7 +80866,7 @@ entity
 		side
 		{
 			"id" "31393"
-			"plane" "(1577 2432 -664) (1577 2436 -664) (1577 2436 -249.608)"
+			"plane" "(1577 2432 -664) (1577 2436 -664) (1577 2436 -248.001)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 1.86133] 0.25"
@@ -80877,7 +80877,7 @@ entity
 		side
 		{
 			"id" "31392"
-			"plane" "(2094.56 2436 -664) (2094.56 2432 -664) (2094.56 2432 -249.608)"
+			"plane" "(2094.56 2436 -664) (2094.56 2432 -664) (2094.56 2432 -248.001)"
 			"material" "METAL/WALL011G"
 			"uaxis" "[0 -1 0 512] 0.25"
 			"vaxis" "[0 0 -1 321.861] 0.25"
@@ -80899,7 +80899,7 @@ entity
 		side
 		{
 			"id" "31390"
-			"plane" "(1577 2432 -249.608) (1577 2436 -249.608) (2094.56 2436 -249.608)"
+			"plane" "(1577 2432 -248) (1577 2436 -248) (2094.56 2436 -248)"
 			"material" "METAL/WALL011G"
 			"uaxis" "[0 -1 0 512] 0.25"
 			"vaxis" "[-1 0 0 192] 0.25"
@@ -80910,7 +80910,7 @@ entity
 		side
 		{
 			"id" "31389"
-			"plane" "(1577 2436 -249.608) (1577 2436 -664) (2094.56 2436 -664)"
+			"plane" "(1577 2436 -248.001) (1577 2436 -664) (2094.56 2436 -664)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 0 -1 49.8613] 0.25"
@@ -80921,7 +80921,7 @@ entity
 		side
 		{
 			"id" "31388"
-			"plane" "(2094.56 2432 -249.608) (2094.56 2432 -664) (1577 2432 -664)"
+			"plane" "(2094.56 2432 -248.001) (2094.56 2432 -664) (1577 2432 -664)"
 			"material" "METAL/WALL011G"
 			"uaxis" "[1 0 0 -192] 0.25"
 			"vaxis" "[0 0 -1 321.861] 0.25"
