@@ -5,7 +5,7 @@
 #include <tf2_stocks>
 #include <entity_prop_stocks>
 #include <sdkhooks>
-#include <colors> 
+#include <morecolors> 
 
 // ====[ CONSTANTS ]===================================================
 #define PL_VERSION "2.2.0" 

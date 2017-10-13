@@ -1,10 +1,4 @@
-﻿// colors:
-// player names - {lightgreen}
-// arena name - {greeen}
-// info/tip - {olive}
-// numbers - {green}
-
-"Phrases"
+﻿"Phrases"
 {
 	"MenuTitle" //No colors here.
 	{
@@ -17,45 +11,45 @@
 	"HPLeft"
 	{
 		"#format"		"{1:i}"
-		"en"			"{green}[MGEMod]{default} Your opponent had {green}{1}{default} health remaining."
+		"en"			"{darkorange}[MGEMod]{default} Your opponent had {arcana}{1}{default} health remaining."
 	}
 	"Adv"
 	{
-		"en"			"{olive}Join an arena, type {default}!add\n{olive}For a list of commands, type {default}!mgehelp"
+		"en"			"{darkorange}Join an arena, type {default}!add\n{darkorange}For a list of commands, type {default}!mgehelp"
 	}
 	"JoinsArena"
 	{
 		"#format"		"{1:s},{2:i},{3:s}"
-		"en"			"{lightgreen}{1} ({2}) {default}joins arena {green}{3}."
+		"en"			"{orange}{1} ({2}) {default}joins arena {green}{3}{default}."
 	}
 	"JoinsArenaNoStats"
 	{
 		"#format"		"{1:s},{2:s}"
-		"en"			"{lightgreen}{1} {default}joins arena {green}{2}."
+		"en"			"{orange}{1} {default}joins arena {greenyellow}{2}."
 	}
 	"ChoseArena"
 	{
 		"#format"		"{1:s}"
-		"en"			"You chose arena {green}{1}."
+		"en"			"You chose arena {greenyellow}{1}."
 	}
 	"NextInLine"
 	{
-		"en"			"You are {green}next{default} in line."
+		"en"			"You are {greenyellow}next{default} in line."
 	}
 	"InLine"
 	{
 		"#format"		"{1:i}"
-		"en"			"You are {green}{1}{default} in line."
+		"en"			"You are {greenyellow}{1}{default} in line."
 	}
 	"GainedPoints"
 	{
 		"#format"		"{1:i}"
-		"en"			"You gained {green}{1}{default} points."
+		"en"			"You gained {greenyellow}{1}{default} points."
 	}
 	"LostPoints"
 	{
 		"#format"		"{1:i}"
-		"en"			"You lost {green}{1}{default} points."
+		"en"			"You lost {greenyellow}{1}{default} points."
 	}
 	"MyRank"
 	{
@@ -69,7 +63,7 @@
 	}
 	"ClassIsNotAllowed"
 	{
-		"en"			"{olive}This class is not allowed!"
+		"en"			"{orangered}This class is not allowed!"
 	}
 	"LowRating"
 	{
@@ -84,37 +78,37 @@
 	"XdefeatsY"
 	{
 		"#format"		"{1:s},{2:i},{3:s},{4:i},{5:i},{6:s}"
-		"en"			"{lightgreen}{1}{default} (Score:{2}) defeats {lightgreen}{3}{default} (Score:{4}) in duel to {green}{5}{default} on {green}{6}"
+		"en"			"{dodgerblue}{1}{default} (Score:{2}) defeats {orange}{3}{default} (Score:{4}) in duel to {green}{5}{default} on {green}{6}{default}."
 	}
 	"XdefeatsYearly"
 	{
 		"#format"		"{1:s},{2:i},{3:s},{4:i},{5:s}"
-		"en"			"{lightgreen}{1}{default} (Score:{2}) defeats {lightgreen}{3}{default} (Score:{4}) in a duel on {green}{5}"
+		"en"			"{dodgerblue}{1}{default} (Score:{2}) defeats {orange}{3}{default} (Score:{4}) in a duel on {green}{5}{default}."
 	}
 	"SpecRemove"
 	{
-		"en"			"{olive}Can't go in spec while in fight, removing from queue."
+		"en"			"{lightblue}Can't go in spec while in fight, removing from queue."
 	}
 	"ClassChangePoint"
 	{
-		"en"			"{olive}You changed class during a fight, giving your opponent one point."
+		"en"			"{crimson}You changed class during a fight, giving your opponent one point."
 	}
 	"ClassChangePointOpponent"
 	{
-		"en"			"{olive}Your opponent changed class during a fight, giving you one point."
+		"en"			"{arcana}Your opponent changed class during a fight, giving you one point."
 	}
 	"Welcome1"
 	{
 		"#format"		"{1:s}"
-		"en"			"{olive}Welcome to MGEMod version {lightgreen}{1}"
+		"en"			"{arcana}Welcome to MGEMod version {arcana}{1}"
 	}
 	"Welcome2"
 	{
-		"en"			"{olive}Map by{default}: {lightgreen}Swaty {default}and {lightgreen}CB"
+		"en"			"{arcana}Map by{default}: {arcana}Swaty {default}and {arcana}CB"
 	}
 	"Welcome3"
 	{
-		"en"			"{olive}Plugin by{default}: {lightgreen}Lange & Cprice{default}, based on {lightgreen}kAmmomod"
+		"en"			"{arcana}Plugin by{default}: {arcana}Lange & Cprice{default}, based on {arcana}kAmmomod"
 	}
 	"Top5Title" //No colors here.
 	{
@@ -127,7 +121,7 @@
 	"bballdunk"
 	{
 		"#format"		"{1:s}"
-		"en"			"{lightgreen}You {default}DUNKED ON {lightgreen}{1}{default}!"
+		"en"			"{gold}You {default}DUNKED ON {darkorange}{1}{default}!"
 	}
 	"Cmd_MGECmds"
 	{
@@ -175,7 +169,7 @@
 	}
 	"NoClassChange"
 	{
-		"en"			"{olive}You cannot change class at this time."
+		"en"			"{crimson}You cannot change class at this time."
 	}
 	"DatabaseDown"
 	{
@@ -192,53 +186,53 @@
 	}
 	"MustJoinArena"
 	{
-		"en"			"{olive}You must join an arena to do that."
+		"en"			"{crimson}You must join an arena to do that."
 	}
 	"NoCurrentHandicap"
 	{
 		"#format"		"{1:i}"
-		"en"			"{olive}You currently do not have a handicap."
+		"en"			"{blue}You currently do not have a handicap."
 	}
 	"CurrentHandicap"
 	{
 		"#format"		"{1:i}"
-		"en"			"{olive}Your current handicap is {lightgreen}{1} {olive}maximum HP."
+		"en"			"{blue}Your current handicap is {arcana}{1} {blue}maximum HP."
 	}
 	"InvalidHandicap"
 	{
-		"en"			"{olive}Your desired handicap is invalid. Disabling handicap."
+		"en"			"{crimson}Your desired handicap is invalid. Disabling handicap."
 	}
 	"HandicapDisabled"
 	{
-		"en"			"{olive}Handicap disabled."
+		"en"			"{arcana}Handicap disabled."
 	}
 	"NotInAnArena"
 	{
-		"en"			"{olive}You are not in an arena!"
+		"en"			"{crimson}You are not in an arena!"
 	}
 	"AlreadyOneVsOne"
 	{
-		"en"			"{olive}This arena is already a 1v1 arena!"
+		"en"			"{crimson}This arena is already a 1v1 arena!"
 	}
 	"OneVsOneNowAllowed"
 	{
-		"en"			"{olive}This arena is not allowed for 1v1!"
+		"en"			"{crimson}This arena is not allowed for 1v1!"
 	}
 	"OneVsOneNotEnoughPlayers"
 	{
-		"en"			"{olive}2 players are needed in this arena"
+		"en"			"{crimson}2 players are needed in this arena."
 	}
 	"OneVsOneMorePlayers"
 	{
-		"en"			"{olive}There are more then 2 players in this arena!"
+		"en"			"{crimson}There are more then 2 players in this arena!"
 	}
 	"OneVsOneSwitchingArena"
 	{
-		"en"			"{olive}Switching this arena to 1v1..."
+		"en"			"{crimson}Switching this arena to 1v1..."
 	}
 	"OneVsOneVoted"
 	{
 		"#format"		"{1:s}"
-		"en"			"{lightgreen}{1} {olive}wants to switch this arena to 1v1!"	
+		"en"			"{orange}{1} {default}wants to switch this arena to 1v1!"	
 	}
 }
