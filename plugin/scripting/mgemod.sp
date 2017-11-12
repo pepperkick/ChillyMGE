@@ -5,7 +5,10 @@
 #include <tf2_stocks>
 #include <entity_prop_stocks>
 #include <sdkhooks>
-#include <morecolors> 
+#include <morecolors>
+#undef REQUIRE_EXTENSIONS
+#include <tf2items>
+#define REQUIRE_EXTENSIONS
 
 // ====[ CONSTANTS ]===================================================
 #define PL_VERSION "2.2.0" 
@@ -47,6 +50,7 @@
 // Handle, String, Float, Bool, NUM, TFCT
 new bool:g_bNoStats;
 new bool:g_bNoDisplayRating;
+bool g_bTf2Items = false;
 
 // HUD Handles
 new Handle:hm_HP = INVALID_HANDLE,
@@ -358,6 +362,9 @@ public OnPluginStart()
 	// Set up the log file for debug logging.
 	BuildPath(Path_SM, g_sLogFile, sizeof(g_sLogFile), "logs/mgemod.log");
 
+	//Lets check to see if TF2Items exist.
+	g_bTf2Items = LibraryExists("TF2Items");
+	
 	/*	This is here in the event of the plugin being hot-loaded while players are in the server.
 		Should probably delete this, as the rest of the code doesn't really support hot-loading. */
 	if(!g_bNoStats)
@@ -371,6 +378,16 @@ public OnPluginStart()
 		g_bCanPlayerGetIntel[i] = true;
 	}
 				
+}
+
+public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max) {
+	MarkNativeAsOptional("TF2Items_CreateItem");
+	MarkNativeAsOptional("TF2Items_SetClassname");
+	MarkNativeAsOptional("TF2Items_SetItemIndex");
+	MarkNativeAsOptional("TF2Items_SetLevel");
+	MarkNativeAsOptional("TF2Items_SetQuality");
+	MarkNativeAsOptional("TF2Items_GiveNamedItem");
+	return APLRes_Success;
 }
 
 /* OnGetGameDescription(String:gameDesc[64])
@@ -441,6 +458,8 @@ public OnMapStart()
 		HookEvent("player_team", Event_PlayerTeam, EventHookMode_Pre);
 		HookEvent("teamplay_round_start", Event_RoundStart, EventHookMode_Post);
 		HookEvent("teamplay_win_panel", Event_WinPanel, EventHookMode_Post);
+		//After we stop the server from sending the items to the player we need to check there inventory and replace the slot.
+		HookEvent("post_inventory_application", Event_Inventory, EventHookMode_Pre);
 
 		AddNormalSoundHook(sound_hook);
 	} else {	
@@ -460,6 +479,9 @@ public OnMapStart()
 		g_bTimerRunning[i] = false;
 		g_fCappedTime[i] = 0.0;
 		g_fTotalTime[i] = 0;
+	}
+	if(!g_bTf2Items) {
+		PrintToServer("WARNING! TF2Items was not found!\nSome features will be disabled!!!");
 	}
 }
 
@@ -973,6 +995,33 @@ public Action:OnPlayerRunCmd(client, &buttons, &impulse, Float:vel[3], Float:ang
 			CreateTimer(0.4,Timer_GiveAmmo,GetClientUserId(client));
 		}
 	}
+}
+
+
+/**
+ * Called when an item is about to be given to a client.
+ * Return Plugin_Changed to override the item to use the configuration of the hItem object.
+ * Return Plugin_Continue to keep them intact.
+ * Return Plugin_Handled to stop the item being given to the player.
+ * Make sure the client gets atleast one weapon.
+ *
+ * @param client				Client Index.
+ * @param classname				The classname of the entity that will be generated.
+ * @param iItemDefinitionIndex	Item definition index.
+ * @param hItem					Handle to a TF2Item object wich describes what values will be overriden.
+ */
+//PSA:: Whenever a player's loadout changes, the post_inventory_application event fires. If you've previously blocked an item from being given to that player, GetPlayerWeaponSlot will return -1 for that slot.
+public Action:TF2Items_OnGiveNamedItem(client, String:classname[], iItemDefinitionIndex, &Handle:hItem) {
+	if(IsValidClient(client)) {
+		if(TF2_GetPlayerClass(client) == TFClass_Pyro) {
+			if(iItemDefinitionIndex == 1178 || iItemDefinitionIndex == 1179 || strcmp(classname, "tf_weapon_rocketpack", true) == 0) {
+				return Plugin_Handled;
+			}
+		}
+		//PrintToServer("TF2Items_OnGiveNamedItem: Client %L has receaved item %i of class \"%s\".", client, iItemDefinitionIndex, classname);
+		//I added this here to make it easier on you to block items in the future. Love - Nacho
+	}
+	return Plugin_Continue;
 }
 
 /* OnTouchPoint(entity, other)
@@ -3978,6 +4027,40 @@ public SQLDbConnTest(Handle:owner, Handle:hndl, const String:error[], any:data)
 ** 
 ** ------------------------------------------------------------------
 **/
+
+public Action:Event_Inventory(Event event, const char[] name, bool dontBroadcast) {
+	int client = GetClientOfUserId(GetEventInt(event, "userid"));
+	if (IsValidClient(client) && g_bTf2Items == true) {
+		if(TF2_GetPlayerClass(client) == TFClass_Pyro) {
+			int Slot1 = GetPlayerWeaponSlot(client, TFWeaponSlot_Secondary);
+			int Slot0 = GetPlayerWeaponSlot(client, TFWeaponSlot_Primary);
+			if(Slot1 == -1) {
+				Handle hWeapon = TF2Items_CreateItem(OVERRIDE_ALL|FORCE_GENERATION);
+				TF2Items_SetClassname(hWeapon, "tf_weapon_shotgun_pyro");
+				TF2Items_SetItemIndex(hWeapon, 12);
+				TF2Items_SetLevel(hWeapon, 50);
+				TF2Items_SetQuality(hWeapon, 0);
+				int g_iReplacer = TF2Items_GiveNamedItem(client, hWeapon);
+				CloseHandle(hWeapon);
+				SetEntPropEnt(client, Prop_Send, "m_hActiveWeapon", Slot1);
+				TF2_RemoveWeaponSlot(client, 1);
+				EquipPlayerWeapon(client, g_iReplacer);
+			}
+			if(Slot0 == -1) {
+				Handle hWeapon = TF2Items_CreateItem(OVERRIDE_ALL|FORCE_GENERATION);
+				TF2Items_SetClassname(hWeapon, "tf_weapon_flamethrower");
+				TF2Items_SetItemIndex(hWeapon, 21);
+				TF2Items_SetLevel(hWeapon, 1);
+				TF2Items_SetQuality(hWeapon, 0);
+				int g_iReplacer = TF2Items_GiveNamedItem(client, hWeapon);
+				CloseHandle(hWeapon);
+				SetEntPropEnt(client, Prop_Send, "m_hActiveWeapon", Slot0);
+				TF2_RemoveWeaponSlot(client, 0);
+				EquipPlayerWeapon(client, g_iReplacer);
+			}
+		}
+	}
+}
 
 public Event_PlayerSpawn(Handle:event,const String:name[],bool:dontBroadcast)
 {
