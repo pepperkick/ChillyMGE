@@ -11,7 +11,7 @@
 #define REQUIRE_EXTENSIONS
 
 // ====[ CONSTANTS ]===================================================
-#define PL_VERSION "2.2.0" 
+#define PL_VERSION "2.2.1"
 #define MAX_FILE_LEN 80
 #define MAXARENAS 31
 #define MAXSPAWNS 15
@@ -226,11 +226,11 @@ static const String:stockSounds[][]= // Sounds that do not need to be downloaded
 
 public Plugin:myinfo =
 {
-  name = "ChillyMGE",
-  author = "Lange & Cprice; based on kAmmomod by Krolus. Modified by PepperKick",
+  name = "MGEMod",
+  author = "Lange & Cprice; based on kAmmomod by Krolus. Modified by ChillyPunch",
   description = "Duel mod with realistic game situations.",
   version = PL_VERSION,
-  url = "https://github.com/Langeh/MGEMod, http://steamcommunity.com/id/langeh"
+  url = "https://github.com/Langeh/MGEMod, https://github.com/ChillyPunch/ChillyMGE, http://steamcommunity.com/id/langeh"
 }
 
 /*
