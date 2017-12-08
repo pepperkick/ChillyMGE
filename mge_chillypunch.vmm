@@ -1,0 +1,38 @@
+Info
+{
+	"NextInternalID" "11"
+}
+Maps
+{
+	VMF
+	{
+		"Name" "Control Center"
+		"File" "area_control.vmf"
+		"InternalID" "1"
+		"TopLevel" "1"
+	}
+	VMF
+	{
+		"Name" "Badlands Middle"
+		"File" "area_badlands_mid.vmf"
+		"InternalID" "5"
+	}
+	VMF
+	{
+		"Name" "Badlands Middle 2"
+		"File" "area_badlands_mid.vmf"
+		"InternalID" "6"
+	}
+	VMF
+	{
+		"Name" "Badlands Spire"
+		"File" "area_badlands_spire.vmf"
+		"InternalID" "7"
+	}
+	VMF
+	{
+		"Name" "Badlands Spire 2"
+		"File" "area_badlands_spire.vmf"
+		"InternalID" "8"
+	}
+}
