@@ -11,9 +11,9 @@
 #define REQUIRE_EXTENSIONS
 
 // ====[ CONSTANTS ]===================================================
-#define PL_VERSION "2.2.1"
+#define PL_VERSION "2.2.2"
 #define MAX_FILE_LEN 80
-#define MAXARENAS 31
+#define MAXARENAS 63 
 #define MAXSPAWNS 15
 #define HUDFADEOUTTIME 120.0
 //#define MAPCONFIGFILE "configs/mgemod_spawns.cfg"
@@ -129,7 +129,7 @@ new String:g_sArenaOriginalName[MAXARENAS+1][64],
 	bool:g_bOvertimePlayed[MAXARENAS+1][4],
 	bool:g_bTimerRunning[MAXARENAS+1],
 	g_iArenaCount,
-	g_iArenaAirshotHeight[MAXARENAS+1],
+	float:g_iArenaAirshotHeight[MAXARENAS+1],
 	g_fTotalTime[MAXARENAS+1],
 	g_iCappingTeam[MAXARENAS+1],
 	Float:g_fCappedTime[MAXARENAS+1],
@@ -260,7 +260,7 @@ public OnPluginStart()
 	gcvar_blockFallDamage = CreateConVar("mgemod_blockdmg_fall", "0", "Block falldamage? (0 = Disabled)", FCVAR_NONE, true, 0.0, true, 1.0);
 	gcvar_dbConfig = CreateConVar("mgemod_dbconfig", "mgemod", "Name of database config");
 	gcvar_stats = CreateConVar("mgemod_stats", "1", "Enable/Disable stats.");
-	gcvar_airshotHeight = CreateConVar("mgemod_airshot_height", "80", "The minimum height at which it will count airshot", FCVAR_NONE, true, 10.0, true, 500.0);
+	gcvar_airshotHeight = CreateConVar("mgemod_airshot_height", "80", "The minimum height at which it will count airshot", FCVAR_NONE, true, -500.0, true, 500.0);
 	gcvar_RocketForceX = CreateConVar("mgemod_endif_force_x", "1.1", "The amount by which to multiply the X push force on Endif.", FCVAR_NONE, true, 1.0, true, 10.0);
 	gcvar_RocketForceY = CreateConVar("mgemod_endif_force_y", "1.1", "The amount by which to multiply the Y push force on Endif.", FCVAR_NONE, true, 1.0, true, 10.0);
 	gcvar_RocketForceZ = CreateConVar("mgemod_endif_force_z", "2.15", "The amount by which to multiply the Z push force on Endif.", FCVAR_NONE, true, 1.0, true, 10.0);
@@ -1080,6 +1080,8 @@ public Action:OnTouchHoop(entity, other)
 	new foe_teammate;
 	new foe_team_slot = (foe_slot > 2) ? (foe_slot - 2) : foe_slot;
 	new client_team_slot = (client_slot > 2) ? (client_slot - 2) : client_slot;
+	
+	PrintToServer("Hoop Touched");
 	
 	if(g_bFourPersonArena[arena_index])
 	{
@@ -3531,7 +3533,9 @@ public UpdateArenaName(arena) {
 	Format(type, sizeof(type), "%s", 
 		g_bArenaMGE[arena] ? "MGE" : 
 		g_bArenaKoth[arena] ? "KOTH" : 
-		g_bArenaAmmomod[arena] ? "AMOD" : ""
+		g_bArenaAmmomod[arena] ? "AMOD" : 
+		g_bArenaBBall[arena] ? "BBALL" : 
+		g_bArenaEndif[arena] ? "ENDIF" : ""
 	);
 	Format(g_sArenaName[arena], sizeof(g_sArenaName), "%s (%s %s)", g_sArenaOriginalName[arena], mode, type);
 	LogMessage("Arena %s updated to %s", g_sArenaOriginalName[arena], g_sArenaName[arena]);
@@ -4126,11 +4130,13 @@ public Action:Event_PlayerHurt(Handle:event,const String:name[],bool:dontBroadca
 				{
 					if (g_bArenaMidair[arena_index])
 						g_iPlayerHP[victim] -= 1;
+				}
 
-					if(g_bArenaEndif[arena_index] && dist >= g_iArenaAirshotHeight[arena_index])
-					{
-						g_iPlayerHP[victim] = -1;
-					}
+				PrintToServer("Airshot Height: %d %f and %f, %d", g_bArenaEndif[arena_index], dist, g_iArenaAirshotHeight[arena_index], dist >= g_iArenaAirshotHeight[arena_index]);
+				if(g_bArenaEndif[arena_index] && dist >= g_iArenaAirshotHeight[arena_index])
+				{
+					PrintToServer("Should die!");
+					g_iPlayerHP[victim] = -1;
 				}
 			}
 		}
@@ -4511,6 +4517,7 @@ public Action:Event_RoundStart(Handle:event, const String:name[], bool:dontBroad
 				g_iBBallHoop[i][SLOT_TWO] = -1;
 			}
 
+			PrintToServer("Creating hoops");
 			if (g_iBBallHoop[i][SLOT_ONE] == -1)
 			{
 				g_iBBallHoop[i][SLOT_ONE] = CreateEntityByName("item_ammopack_small");

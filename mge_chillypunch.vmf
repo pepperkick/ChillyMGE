@@ -1,0 +1,678 @@
+world
+{
+"skyname" "sky_trainyard_01"
+"detailvbsp" "detail.vbsp"
+"detailmaterial" "detail/detailsprites"
+"message" "ChillyMGE by PepperKick"
+"chaptertitle" "ChillyMGE"
+"id" "0"
+"mapversion" "0"
+"classname" "worldspawn"
+"maxpropscreenwidth" "-1"
+}
+entity
+{
+"id" "1"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_control.vmf"
+"fixup_style" "0"
+"origin" "0 0 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "2"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_badlands_mid.vmf"
+"fixup_style" "0"
+"origin" "-15000 10000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "3"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_badlands_mid.vmf"
+"fixup_style" "0"
+"origin" "-15000 10000 -5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "4"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_badlands_spire.vmf"
+"fixup_style" "0"
+"origin" "-10000 10000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "5"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_badlands_spire.vmf"
+"fixup_style" "0"
+"origin" "-10000 10000 -5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "6"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_granary_pro_mid.vmf"
+"fixup_style" "0"
+"origin" "-5000 10000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "7"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_granary_pro_mid.vmf"
+"fixup_style" "0"
+"origin" "-5000 10000 -5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "8"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_granary_pro_last.vmf"
+"fixup_style" "0"
+"origin" "0 10000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "9"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_gullywash_mid.vmf"
+"fixup_style" "0"
+"origin" "7500 10000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "10"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_gullywash_second.vmf"
+"fixup_style" "0"
+"origin" "11000 10000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "11"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_metalworks_mid.vmf"
+"fixup_style" "0"
+"origin" "-15000 3000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "12"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_process_mid.vmf"
+"fixup_style" "0"
+"origin" "-10000 3000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "13"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_process_second.vmf"
+"fixup_style" "0"
+"origin" "-5000 3000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "14"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_product_mid.vmf"
+"fixup_style" "0"
+"origin" "500 3000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "15"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_snakewater_mid.vmf"
+"fixup_style" "0"
+"origin" "5000 3000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "16"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_sunshine_mid.vmf"
+"fixup_style" "0"
+"origin" "10000 3000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "17"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_reckoner_mid.vmf"
+"fixup_style" "0"
+"origin" "-15000 3000 -5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "18"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_granary_pro_lava.vmf"
+"fixup_style" "0"
+"origin" "10000 -5000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "19"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_granary_pro_lava.vmf"
+"fixup_style" "0"
+"origin" "10000 -5000 -5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "20"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_bball.vmf"
+"fixup_style" "0"
+"origin" "5000 -5000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "21"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_bball.vmf"
+"fixup_style" "0"
+"origin" "5000 -5000 -5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "22"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_endif_open.vmf"
+"fixup_style" "0"
+"origin" "-15000 -5000 -672"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "23"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_endif_open.vmf"
+"fixup_style" "0"
+"origin" "-12500 -5000 -672"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "24"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_endif_open.vmf"
+"fixup_style" "0"
+"origin" "-15000 -2500 -672"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "25"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_endif_open.vmf"
+"fixup_style" "0"
+"origin" "-12500 -2500 -672"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "26"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_amphi.vmf"
+"fixup_style" "0"
+"origin" "-10000 -5000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "27"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_amphi.vmf"
+"fixup_style" "0"
+"origin" "-10000 -5000 -5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "28"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_amphi.vmf"
+"fixup_style" "0"
+"origin" "-10000 -5000 5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "29"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_ammomod_open.vmf"
+"fixup_style" "0"
+"origin" "-15000 -7500 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "30"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_ammomod_open.vmf"
+"fixup_style" "0"
+"origin" "-15000 -7500 -5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "31"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_ammomod_open.vmf"
+"fixup_style" "0"
+"origin" "-12500 -7500 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "32"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_ammomod_open.vmf"
+"fixup_style" "0"
+"origin" "-12500 -7500 -5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "33"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_ammomod_circular.vmf"
+"fixup_style" "0"
+"origin" "-15000 -10000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "34"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_ammomod_circular.vmf"
+"fixup_style" "0"
+"origin" "-12500 -10000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "35"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_ammomod_nosplash.vmf"
+"fixup_style" "0"
+"origin" "-15000 -12500 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "36"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_ammomod_nosplash.vmf"
+"fixup_style" "0"
+"origin" "-12500 -12500 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "37"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_temple_koth.vmf"
+"fixup_style" "0"
+"origin" "-6000 -5000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "38"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_temple_koth.vmf"
+"fixup_style" "0"
+"origin" "-6000 -5000 -5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "39"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_temple_knockout.vmf"
+"fixup_style" "0"
+"origin" "-2500 -5000 0"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "40"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_temple_knockout.vmf"
+"fixup_style" "0"
+"origin" "-2500 -5000 -5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+entity
+{
+"id" "41"
+"classname" "func_instance"
+"angles" "0 0 0"
+"file" "areas/area_temple_knockout.vmf"
+"fixup_style" "0"
+"origin" "-2500 -5000 5000"
+editior
+{
+"color" "0 255 255"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+}
+}
+camera
+{
+"activecamer" "-1"
+}
+cordon
+{
+"mixs" "(-1024 -1024 -1024)"
+"maxs" "(1024 1024 1024)"
+"active" "0"
+}
