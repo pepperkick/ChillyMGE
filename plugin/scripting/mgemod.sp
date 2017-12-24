@@ -11,7 +11,7 @@
 #define REQUIRE_EXTENSIONS
 
 // ====[ CONSTANTS ]===================================================
-#define PL_VERSION "2.2.2"
+#define PL_VERSION "2.2.3"
 #define MAX_FILE_LEN 80
 #define MAXARENAS 63 
 #define MAXSPAWNS 15
@@ -65,6 +65,7 @@ new String:g_sMapName[64],
 	bool:g_bBlockFallDamage,
 	bool:g_bUseSQLite,
 	bool:g_bAutoCvar,
+	bool:g_bAutoDownloadConfig,
 		g_iDefaultFragLimit,
 		g_iAirshotHeight = 80,
 	String:g_spawnFile[128];
@@ -419,7 +420,6 @@ public OnMapStart()
 	PrecacheModel(MODEL_POINT, true);
 	
 	g_bNoStats = (GetConVarBool(gcvar_stats)) ? false : true; /* Reset this variable, since it is forced to false during Event_WinPanel */
-	
 	
 	// Spawns
 	new isMapAm = LoadSpawnPoints();
@@ -1031,7 +1031,7 @@ public Action:TF2Items_OnGiveNamedItem(client, String:classname[], iItemDefiniti
 public Action:OnEndTouchPoint(entity, other)
 {
 	new client = other;
-	
+		
 	if(!IsValidClient(client))
 		return;
 
@@ -3532,6 +3532,7 @@ public UpdateArenaName(arena) {
 	Format(mode, sizeof(mode), "%s", g_bFourPersonArena[arena] ? "2v2" : "1v1");
 	Format(type, sizeof(type), "%s", 
 		g_bArenaMGE[arena] ? "MGE" : 
+		g_bArenaUltiduo[arena] ? "ULTI" : 
 		g_bArenaKoth[arena] ? "KOTH" : 
 		g_bArenaAmmomod[arena] ? "AMOD" : 
 		g_bArenaBBall[arena] ? "BBALL" : 
@@ -4132,10 +4133,8 @@ public Action:Event_PlayerHurt(Handle:event,const String:name[],bool:dontBroadca
 						g_iPlayerHP[victim] -= 1;
 				}
 
-				PrintToServer("Airshot Height: %d %f and %f, %d", g_bArenaEndif[arena_index], dist, g_iArenaAirshotHeight[arena_index], dist >= g_iArenaAirshotHeight[arena_index]);
 				if(g_bArenaEndif[arena_index] && dist >= g_iArenaAirshotHeight[arena_index])
 				{
-					PrintToServer("Should die!");
 					g_iPlayerHP[victim] = -1;
 				}
 			}
