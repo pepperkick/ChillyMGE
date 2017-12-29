@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7650"
-	"mapversion" "111"
+	"mapversion" "112"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "111"
+	"mapversion" "112"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -578,7 +578,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_inner_cone" "1"
-	"_light" "255 205 55 2500"
+	"_light" "255 205 55 3500"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -692,7 +692,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_inner_cone" "1"
-	"_light" "255 205 55 2500"
+	"_light" "255 205 55 3500"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -806,7 +806,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_inner_cone" "1"
-	"_light" "255 205 55 2500"
+	"_light" "255 205 55 3500"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -920,7 +920,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_inner_cone" "1"
-	"_light" "255 205 55 2500"
+	"_light" "255 205 55 3500"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -960,7 +960,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
-	"origin" "128 1152.34 3160.7"
+	"origin" "128 1152.34 2648.7"
 	editor
 	{
 		"color" "255 255 0"
@@ -984,7 +984,7 @@ entity
 	"effect_name" "burning_torch"
 	"flag_as_weather" "0"
 	"start_active" "1"
-	"origin" "152 1152.34 3184.7"
+	"origin" "152 1152.34 2672.7"
 	editor
 	{
 		"color" "220 30 220"
@@ -1014,7 +1014,7 @@ entity
 	"pitch" "90"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "152 1152.34 3198.28"
+	"origin" "152 1152.34 2686.28"
 	editor
 	{
 		"color" "220 30 220"
@@ -1034,7 +1034,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_inner_cone" "1"
-	"_light" "255 205 55 2500"
+	"_light" "255 205 55 3500"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -1044,7 +1044,7 @@ entity
 	"pitch" "-60.0292"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "149.42 1152 3328"
+	"origin" "149.42 1152 2816"
 	editor
 	{
 		"color" "220 30 220"
@@ -1074,7 +1074,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
-	"origin" "1152.34 2176 3160.7"
+	"origin" "1152.34 2176 2648.7"
 	editor
 	{
 		"color" "255 255 0"
@@ -1098,7 +1098,7 @@ entity
 	"effect_name" "burning_torch"
 	"flag_as_weather" "0"
 	"start_active" "1"
-	"origin" "1152.34 2152 3184.7"
+	"origin" "1152.34 2152 2672.7"
 	editor
 	{
 		"color" "220 30 220"
@@ -1128,7 +1128,7 @@ entity
 	"pitch" "90"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "1152.34 2152 3198.28"
+	"origin" "1152.34 2152 2686.28"
 	editor
 	{
 		"color" "220 30 220"
@@ -1148,7 +1148,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_inner_cone" "1"
-	"_light" "255 205 55 2500"
+	"_light" "255 205 55 3500"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -1158,7 +1158,7 @@ entity
 	"pitch" "-60.0292"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "1152 2154.58 3328"
+	"origin" "1152 2154.58 2816"
 	editor
 	{
 		"color" "220 30 220"
@@ -1188,7 +1188,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
-	"origin" "2168 1152 3160.7"
+	"origin" "2168 1152 2648.7"
 	editor
 	{
 		"color" "255 255 0"
@@ -1212,7 +1212,7 @@ entity
 	"effect_name" "burning_torch"
 	"flag_as_weather" "0"
 	"start_active" "1"
-	"origin" "2144 1152 3184.7"
+	"origin" "2144 1152 2672.7"
 	editor
 	{
 		"color" "220 30 220"
@@ -1242,7 +1242,7 @@ entity
 	"pitch" "90"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "2144 1152 3198.28"
+	"origin" "2144 1152 2686.28"
 	editor
 	{
 		"color" "220 30 220"
@@ -1262,7 +1262,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_inner_cone" "1"
-	"_light" "255 205 55 2500"
+	"_light" "255 205 55 3500"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -1272,7 +1272,7 @@ entity
 	"pitch" "-60.0292"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "2146.58 1152.34 3328"
+	"origin" "2146.58 1152.34 2816"
 	editor
 	{
 		"color" "220 30 220"
@@ -1302,7 +1302,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
-	"origin" "1152 128 3160.7"
+	"origin" "1152 128 2648.7"
 	editor
 	{
 		"color" "255 255 0"
@@ -1326,7 +1326,7 @@ entity
 	"effect_name" "burning_torch"
 	"flag_as_weather" "0"
 	"start_active" "1"
-	"origin" "1152 152 3184.7"
+	"origin" "1152 152 2672.7"
 	editor
 	{
 		"color" "220 30 220"
@@ -1356,7 +1356,7 @@ entity
 	"pitch" "90"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "1152 152 3198.28"
+	"origin" "1152 152 2686.28"
 	editor
 	{
 		"color" "220 30 220"
@@ -1376,7 +1376,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_inner_cone" "1"
-	"_light" "255 205 55 2500"
+	"_light" "255 205 55 3500"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -1386,7 +1386,7 @@ entity
 	"pitch" "-60.0292"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "1152.34 149.42 3328"
+	"origin" "1152.34 149.42 2816"
 	editor
 	{
 		"color" "220 30 220"
@@ -1416,7 +1416,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
-	"origin" "122 1164 2256"
+	"origin" "122 1164 2000"
 	editor
 	{
 		"color" "255 255 0"
@@ -1562,7 +1562,7 @@ entity
 		side
 		{
 			"id" "2684"
-			"plane" "(1088 1216 576) (1088 1087 576) (1216 1087 576)"
+			"plane" "(1088 1216 0) (1088 1087 0) (1216 1087 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1573,7 +1573,7 @@ entity
 		side
 		{
 			"id" "2683"
-			"plane" "(1088 1087 576) (1088 1216 576) (1088 1216 1024)"
+			"plane" "(1088 1087 0) (1088 1216 0) (1088 1216 1024)"
 			"material" "PL_TEMPLE/TEMPLE_BRICK_HALF"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -1584,7 +1584,7 @@ entity
 		side
 		{
 			"id" "2682"
-			"plane" "(1216 1216 576) (1216 1087 576) (1216 1087 1024)"
+			"plane" "(1216 1216 0) (1216 1087 0) (1216 1087 1024)"
 			"material" "PL_TEMPLE/TEMPLE_BRICK_HALF"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -1595,7 +1595,7 @@ entity
 		side
 		{
 			"id" "2681"
-			"plane" "(1088 1216 576) (1216 1216 576) (1216 1216 1024)"
+			"plane" "(1088 1216 0) (1216 1216 0) (1216 1216 1024)"
 			"material" "PL_TEMPLE/TEMPLE_BRICK_HALF"
 			"uaxis" "[1 0 0 -96] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -1606,7 +1606,7 @@ entity
 		side
 		{
 			"id" "2680"
-			"plane" "(1216 1087 576) (1088 1087 576) (1088 1087 1024)"
+			"plane" "(1216 1087 0) (1088 1087 0) (1088 1087 1024)"
 			"material" "PL_TEMPLE/TEMPLE_BRICK_HALF"
 			"uaxis" "[1 0 0 -96] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
