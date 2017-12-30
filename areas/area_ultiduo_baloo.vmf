@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7650"
-	"mapversion" "14"
+	"mapversion" "17"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "14"
+	"mapversion" "17"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.23 from ultiduo_baloo"
 	"detailmaterial" "detail/detailsprites_2fort"
@@ -44189,7 +44189,7 @@ entity
 	"area_cap_point" "cap_area_baloo"
 	"area_time_to_cap" "2.5"
 	"StartDisabled" "0"
-	"targetname" "cap_trigger"
+	"targetname" "cap_trigger_area_baloo"
 	"team_cancap_2" "1"
 	"team_cancap_3" "1"
 	"team_numcap_2" "2"
@@ -44428,6 +44428,106 @@ entity
 cameras
 {
 	"activecamera" "0"
+	camera
+	{
+		"position" "[243.299 221.07 308.953]"
+		"look" "[80.6607 95.8582 139.152]"
+	}
+	camera
+	{
+		"position" "[-32 1532.72 149.239]"
+		"look" "[-32 1280 65]"
+	}
+	camera
+	{
+		"position" "[-96 1532.72 149.239]"
+		"look" "[-96 1280 65]"
+	}
+	camera
+	{
+		"position" "[-160 1532.72 149.239]"
+		"look" "[-160 1280 65]"
+	}
+	camera
+	{
+		"position" "[-224 1532.72 149.239]"
+		"look" "[-224 1280 65]"
+	}
+	camera
+	{
+		"position" "[32 1628.72 149.239]"
+		"look" "[32 1376 65]"
+	}
+	camera
+	{
+		"position" "[-32 1628.72 149.239]"
+		"look" "[-32 1376 65]"
+	}
+	camera
+	{
+		"position" "[-96 1628.72 149.239]"
+		"look" "[-96 1376 65]"
+	}
+	camera
+	{
+		"position" "[-160 1628.72 149.239]"
+		"look" "[-160 1376 65]"
+	}
+	camera
+	{
+		"position" "[-224 1628.72 149.239]"
+		"look" "[-224 1376 65]"
+	}
+	camera
+	{
+		"position" "[-31.9999 -1532.72 149.239]"
+		"look" "[-31.9999 -1280 65]"
+	}
+	camera
+	{
+		"position" "[32.0001 -1532.72 149.239]"
+		"look" "[32.0001 -1280 65]"
+	}
+	camera
+	{
+		"position" "[96.0001 -1532.72 149.239]"
+		"look" "[96.0001 -1280 65]"
+	}
+	camera
+	{
+		"position" "[160 -1532.72 149.239]"
+		"look" "[160 -1280 65]"
+	}
+	camera
+	{
+		"position" "[224 -1532.72 149.239]"
+		"look" "[224 -1280 65]"
+	}
+	camera
+	{
+		"position" "[-31.9999 -1628.72 149.239]"
+		"look" "[-31.9999 -1376 65]"
+	}
+	camera
+	{
+		"position" "[32.0001 -1628.72 149.239]"
+		"look" "[32.0001 -1376 65]"
+	}
+	camera
+	{
+		"position" "[96.0001 -1628.72 149.239]"
+		"look" "[96.0001 -1376 65]"
+	}
+	camera
+	{
+		"position" "[160 -1628.72 149.239]"
+		"look" "[160 -1376 65]"
+	}
+	camera
+	{
+		"position" "[224 -1628.72 149.239]"
+		"look" "[224 -1376 65]"
+	}
 	camera
 	{
 		"position" "[519.391 90.7098 381.911]"
