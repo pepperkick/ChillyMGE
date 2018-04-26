@@ -1,0 +1,19 @@
+{
+  "name": "chillymge",
+  "version": "1.0.0",
+  "description": "A new MGE map",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node scripts/instance.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChillyPunch/ChillyMGE.git"
+  },
+  "author": "PepperKick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChillyPunch/ChillyMGE/issues"
+  },
+  "homepage": "https://github.com/ChillyPunch/ChillyMGE#readme"
+}
