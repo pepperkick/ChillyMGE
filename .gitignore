@@ -9,3 +9,10 @@
 *.lin
 *.backup
 *.bz2
+*.smx
+*.7z
+
+/mge_chillypunch
+/dist
+/archive
+/build
