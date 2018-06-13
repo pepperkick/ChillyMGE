@@ -5086,7 +5086,7 @@ public Action:Timer_ShowAdv(Handle:timer, any:userid)
     if (IsValidClient(client) && g_iPlayerArena[client]==0)
     {
         CPrintToChat(client,"%t","Adv");
-        CreateTimer(15.0, Timer_ShowAdv, userid);
+        CreateTimer(90.0, Timer_ShowAdv, userid);
     }
 
     return Plugin_Continue;
