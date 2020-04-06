@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7650"
-	"mapversion" "21"
+	"editorbuild" "7937"
+	"mapversion" "25"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "21"
+	"mapversion" "25"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -17253,6 +17253,7 @@ entity
 	"id" "161"
 	"classname" "prop_static"
 	"angles" "0 0 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"lightmapresolutionx" "32"
@@ -17275,6 +17276,7 @@ entity
 	"id" "163"
 	"classname" "prop_static"
 	"angles" "0 0 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"lightmapresolutionx" "32"
@@ -17319,6 +17321,7 @@ entity
 	"id" "165"
 	"classname" "prop_static"
 	"angles" "0 0 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"lightmapresolutionx" "32"
@@ -17341,6 +17344,7 @@ entity
 	"id" "166"
 	"classname" "prop_static"
 	"angles" "0 0 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"lightmapresolutionx" "32"
@@ -27558,6 +27562,7 @@ entity
 	"id" "159"
 	"classname" "prop_static"
 	"angles" "0 0 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"lightmapresolutionx" "32"
@@ -28132,8 +28137,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[98.8793 648.526 170.355]"
-		"look" "[-12.8415 693.898 127.418]"
+		"position" "[378.056 1773.65 3452.85]"
+		"look" "[339.154 1793.73 3332.57]"
 	}
 }
 cordon

@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7650"
-	"mapversion" "12"
+	"editorbuild" "7937"
+	"mapversion" "14"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "12"
+	"mapversion" "14"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.23 from spire_2ez_b4"
 	"detailmaterial" "detail/detailsprites"
@@ -24494,13 +24494,101 @@ entity
 		"logicalpos" "[1500 6000]"
 	}
 }
+entity
+{
+	"id" "35918"
+	"classname" "func_viscluster"
+	solid
+	{
+		"id" "35919"
+		side
+		{
+			"id" "1554"
+			"plane" "(4851 4750 -407) (4851 -242 -407) (4851 -242 2444)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 -59.6367] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1553"
+			"plane" "(-35.9998 -242 -407) (4851 -242 -407) (4851 4750 -407)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -7.44727] 0.25"
+			"vaxis" "[0 1 0 59.6367] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1552"
+			"plane" "(-35.9998 4750 2444) (4851 4750 2444) (4851 -242 2444)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 7.44727] 0.25"
+			"vaxis" "[0 1 0 61.6367] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1551"
+			"plane" "(-35.9998 4750 -407) (4851 4750 -407) (4851 4750 2444)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 7.44727] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1550"
+			"plane" "(4851 -242 2444) (4851 -242 -407) (-35.9998 -242 -407)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 7.44727] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1549"
+			"plane" "(-35.9998 -242 -407) (-35.9998 4750 -407) (-35.9998 4750 2444)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 59.6367] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "180 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "180 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3023.83 779.243 1547.07]"
-		"look" "[2924.18 987.299 1413.88]"
+		"position" "[3164.81 -1105.08 3281.04]"
+		"look" "[3099.08 -951.659 3073.44]"
 	}
 	camera
 	{

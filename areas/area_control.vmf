@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7803"
-	"mapversion" "45"
+	"editorbuild" "7937"
+	"mapversion" "63"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -12,7 +12,7 @@ visgroups
 viewsettings
 {
 	"bSnapToGrid" "1"
-	"bShowGrid" "1"
+	"bShowGrid" "0"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "128"
 	"bShow3DGrid" "0"
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "272621"
-	"mapversion" "247"
+	"mapversion" "63"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -930,16 +930,16 @@ entity
 {
 	"id" "21"
 	"classname" "light_environment"
-	"_ambient" "255 255 255 100"
-	"_ambientHDR" "255 255 255 70"
+	"_ambient" "255 255 255 200"
+	"_ambientHDR" "255 255 255 200"
 	"_AmbientScaleHDR" "1.05"
-	"_light" "255 255 255 200"
-	"_lightHDR" "255 255 255 170"
+	"_light" "255 255 255 300"
+	"_lightHDR" "255 255 255 300"
 	"_lightscaleHDR" "0.95"
 	"angles" "0 300 0"
 	"pitch" "-65"
-	"SunSpreadAngle" "7"
-	"origin" "33 -64 249"
+	"SunSpreadAngle" "10"
+	"origin" "161 -64 249"
 	editor
 	{
 		"color" "220 30 220"
@@ -1500,7 +1500,7 @@ entity
 	"color" "176 176 176"
 	"disableallshadows" "0"
 	"distance" "75"
-	"origin" "161 -64 249"
+	"origin" "289 -64 249"
 	editor
 	{
 		"color" "220 30 220"

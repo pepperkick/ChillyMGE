@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7803"
-	"mapversion" "81"
+	"editorbuild" "7937"
+	"mapversion" "86"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -11,13 +11,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "2"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "5100632"
-	"mapversion" "81"
+	"mapversion" "86"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1825,6 +1825,158 @@ world
 		editor
 		{
 			"color" "0 189 166"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5127052"
+		side
+		{
+			"id" "16510"
+			"plane" "(692.366 994 350) (692.366 690.62 350) (708.366 690.62 350)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 26.5359] 0.25"
+			"vaxis" "[0 -1 0 -37.5181] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16509"
+			"plane" "(692.366 690.62 2400) (692.366 994 2400) (708.366 994 2400)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 26.5359] 0.25"
+			"vaxis" "[0 -1 0 -37.5181] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16508"
+			"plane" "(692.366 690.62 350) (692.366 994 350) (692.366 994 2400)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 37.5181] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16507"
+			"plane" "(708.366 994 350) (708.366 690.62 350) (708.366 690.62 2400)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 -1 0 -37.5181] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16506"
+			"plane" "(708.366 690.62 350) (692.366 690.62 350) (692.366 690.62 2400)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[-1 0 0 -26.5359] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16505"
+			"plane" "(692.366 994 350) (708.366 994 350) (708.366 994 2400)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 26.5359] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 224 205"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5127068"
+		side
+		{
+			"id" "16540"
+			"plane" "(3516 2271.91 341.339) (3516 1968.53 341.339) (3532 1968.53 341.339)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 -4] 0.25"
+			"vaxis" "[0 -1 0 18.1333] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16539"
+			"plane" "(3516 1968.53 2391.34) (3516 2271.91 2391.34) (3532 2271.91 2391.34)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 -4] 0.25"
+			"vaxis" "[0 -1 0 18.1333] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16538"
+			"plane" "(3516 1968.53 341.338) (3516 2271.91 341.338) (3516 2271.91 2391.34)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 -18.1333] 0.25"
+			"vaxis" "[0 0 -1 -42.6416] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16537"
+			"plane" "(3532 2271.91 341.338) (3532 1968.53 341.338) (3532 1968.53 2391.34)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 -1 0 18.1333] 0.25"
+			"vaxis" "[0 0 -1 -42.6416] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16536"
+			"plane" "(3532 1968.53 341.338) (3516 1968.53 341.338) (3516 1968.53 2391.34)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[-1 0 0 4] 0.25"
+			"vaxis" "[0 0 -1 -42.6416] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16535"
+			"plane" "(3516 2271.91 341.338) (3532 2271.91 341.338) (3532 2271.91 2391.34)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 -4] 0.25"
+			"vaxis" "[0 0 -1 -42.6416] 0.25"
+			"rotation" "0"
+			"lightmapscale" "48"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 164 209"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -34189,10 +34341,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "32 109 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "2267.02 849.028 779.051"
 	editor
@@ -34209,10 +34361,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "32 109 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "2299.02 850.028 779.051"
 	editor
@@ -34256,10 +34408,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "32 109 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255d"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "2331.02 849.028 779.051"
 	editor
@@ -34330,10 +34482,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "32 290 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "1955.64 2094.73 781.25"
 	editor
@@ -34350,10 +34502,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "32 290 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "1922.64 2094.73 781.25"
 	editor
@@ -34397,10 +34549,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "32 290 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "1891.58 2094.73 781.25"
 	editor
@@ -34444,10 +34596,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "44 186 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "3071.27 1567.71 1214.02"
 	editor
@@ -34491,10 +34643,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "44 186 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "3071.33 1534.71 1214.02"
 	editor
@@ -34538,10 +34690,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "44 186 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "3071.33 1502.68 1214.02"
 	editor
@@ -34666,10 +34818,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "44 6 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "1161.67 1440.23 1213.71"
 	editor
@@ -34686,10 +34838,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "44 6 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "1161.67 1408.2 1213.71"
 	editor
@@ -34706,10 +34858,10 @@ entity
 	"classname" "point_spotlight"
 	"angles" "44 6 0"
 	"HDRColorScale" "1.0"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "255 255 255"
 	"spawnflags" "3"
-	"spotlightlength" "768"
+	"spotlightlength" "256"
 	"spotlightwidth" "80"
 	"origin" "1161.73 1375.2 1213.71"
 	editor
