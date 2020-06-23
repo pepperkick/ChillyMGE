@@ -14,7 +14,7 @@
 #define REQUIRE_EXTENSIONS
 
 // ====[ CONSTANTS ]===================================================
-#define PL_VERSION "2.3.3"
+#define PL_VERSION "2.3.5"
 #define UPDATE_URL ""
 #define MAX_FILE_LEN 80
 #define MAXARENAS 63
@@ -69,7 +69,7 @@ new String:g_sMapName[64],
     bool:g_bBlockFallDamage,
     bool:g_bUseSQLite,
     bool:g_bAutoCvar,
-    bool:g_bAutoDownloadConfig,
+//    bool:g_bAutoDownloadConfig,
         g_iDefaultFragLimit,
         g_iAirshotHeight = 80,
     String:g_spawnFile[128];
@@ -108,7 +108,7 @@ new String:g_sArenaOriginalName[MAXARENAS+1][64],
     String:g_sArenaName[MAXARENAS+1][64],
     String:g_sArenaCapTrigger[MAXARENAS+1][64], // Cap point trggier name for KOTH
     String:g_sArenaCap[MAXARENAS+1][64], // Cap point name for KOTH
-    Float:g_fArenaCapPointOrigin[MAXARENAS+1][3],
+//  Float:g_fArenaCapPointOrigin[MAXARENAS+1][3],
     Float:g_fArenaSpawnOrigin[MAXARENAS+1][MAXSPAWNS+1][3],
     Float:g_fArenaSpawnAngles[MAXARENAS+1][MAXSPAWNS+1][3],
     Float:g_fArenaHPRatio[MAXARENAS+1],
@@ -137,7 +137,7 @@ new String:g_sArenaOriginalName[MAXARENAS+1][64],
     bool:g_bOvertimePlayed[MAXARENAS+1][4],
     bool:g_bTimerRunning[MAXARENAS+1],
     g_iArenaCount,
-    float:g_iArenaAirshotHeight[MAXARENAS+1],
+    g_iArenaAirshotHeight[MAXARENAS+1],
     g_fTotalTime[MAXARENAS+1],
     g_iCappingTeam[MAXARENAS+1],
     Float:g_fCappedTime[MAXARENAS+1],
@@ -159,7 +159,7 @@ new String:g_sArenaOriginalName[MAXARENAS+1][64],
     g_iArenaCdTime[MAXARENAS+1],
     g_iArenaSpawns[MAXARENAS+1],
     g_iBBallHoop[MAXARENAS+1][3], // [What arena the hoop is in][Hoop 1 or Hoop 2]
-    g_iBBallHoopTrigger[MAXARENAS+1][2], // [What arena the hoop is in][Hoop 1 or Hoop 2]
+//  g_iBBallHoopTrigger[MAXARENAS+1][2], // [What arena the hoop is in][Hoop 1 or Hoop 2]
     g_iBBallIntel[MAXARENAS+1],
     g_iArenaEarlyLeave[MAXARENAS+1],
     g_iELOMenuPage[MAXARENAS+1],
@@ -791,7 +791,7 @@ public OnGameFrame()
                         //True harmonic cap time, yes!
                         for(; cap > 0; cap--)
                         {
-                            g_fCappedTime[arena_index2] += FloatDiv(7.0, float(cap));
+                            g_fCappedTime[arena_index2] += 7.0 / float(cap);
                         }
                         g_iCappingTeam[arena_index2] = TEAM_RED;
                         continue;
@@ -842,7 +842,7 @@ public OnGameFrame()
                         //True harmonic cap time, yes!
                         for(; cap > 0; cap--)
                         {
-                            g_fCappedTime[arena_index2] += FloatDiv(7.0, float(cap));
+                            g_fCappedTime[arena_index2] += 7.0 / float(cap);
                         }
                         g_iCappingTeam[arena_index2] = TEAM_BLU;
                         continue;
@@ -893,7 +893,7 @@ public OnGameFrame()
                         //True harmonic cap time, yes!
                         for(; cap > 0; cap--)
                         {
-                            g_fCappedTime[arena_index2] -= FloatDiv(7.0, float(cap));
+                            g_fCappedTime[arena_index2] -= 7.0 / float(cap);
                         }
                         g_iCappingTeam[arena_index2] = TEAM_BLU;
                         continue;
@@ -941,7 +941,7 @@ public OnGameFrame()
                         //True harmonic cap time, yes!
                         for(; cap > 0; cap--)
                         {
-                            g_fCappedTime[arena_index2] -= FloatDiv(7.0, float(cap));
+                            g_fCappedTime[arena_index2] -= 7.0 / float(cap);
                         }
                         g_iCappingTeam[arena_index2] = TEAM_RED;
                         continue;
@@ -2210,7 +2210,7 @@ CalcELO2(winner, winner2, loser, loser2)
                                         g_sPlayerSteamID[winner], g_sPlayerSteamID[winner2], g_sPlayerSteamID[loser], g_sPlayerSteamID[loser2], g_iArenaScore[arena_index][winner_team_slot], g_iArenaScore[arena_index][loser_team_slot], g_iArenaFraglimit[arena_index], time, g_sMapName, g_sArenaName[arena_index]);
         SQL_TQuery(db, SQLErrorCheckCallback, query);
     } else {
-        Format(query, sizeof(query),     "INSERT INTO mgemod_duels_2v2 (winner, winner2, loser, loser2, winnerscore, loserscore, winlimit, gametime, mapname, arenaname) VALUES ('%s', '%s', %i, %i, %i, %i, '%s', '%s')",
+        Format(query, sizeof(query),     "INSERT INTO mgemod_duels_2v2 (winner, winner2, loser, loser2, winnerscore, loserscore, winlimit, gametime, mapname, arenaname) VALUES ('%s', '%s', '%s', '%s', %i, %i, %i, %i, '%s', '%s')",
                                         g_sPlayerSteamID[winner], g_sPlayerSteamID[winner2], g_sPlayerSteamID[loser], g_sPlayerSteamID[loser2], g_iArenaScore[arena_index][winner_team_slot], g_iArenaScore[arena_index][loser_team_slot], g_iArenaFraglimit[arena_index], time, g_sMapName, g_sArenaName[arena_index]);
         SQL_TQuery(db, SQLErrorCheckCallback, query);
     }
@@ -2333,7 +2333,7 @@ LoadSpawnPoints()
                             g_bArenaMGE[g_iArenaCount] = KvGetNum(kv, "mge", 0) ? true : false ;
                             g_fArenaHPRatio[g_iArenaCount] = KvGetFloat(kv, "hpratio", 1.5);
                             g_bArenaEndif[g_iArenaCount] = KvGetNum(kv, "endif", 0) ? true : false ;
-                            g_iArenaAirshotHeight[g_iArenaCount] = KvGetFloat(kv, "airshotheight", 250.0);
+                            g_iArenaAirshotHeight[g_iArenaCount] = KvGetNum(kv, "airshotheight", 250);
                             g_bArenaBoostVectors[g_iArenaCount] = KvGetNum(kv, "boostvectors", 0) ? true : false ;
                             g_bArenaBBall[g_iArenaCount] = KvGetNum(kv, "bball", 0) ? true : false ;
                             g_bVisibleHoops[g_iArenaCount] = KvGetNum(kv, "vishoop", 0) ? true : false ;
@@ -3373,7 +3373,7 @@ public Action:Command_OneVsOne(client, args)
         return Plugin_Continue;
 
     new arena_index = g_iPlayerArena[client];
-    new player_slot = g_iPlayerSlot[client];
+    //new player_slot = g_iPlayerSlot[client];
 
     if (!arena_index) {
         PrintToChat(client, "You are not in an arena!");
@@ -3422,7 +3422,7 @@ public Action:Command_TwoVsTwo(client, args)
         return Plugin_Continue;
 
     new arena_index = g_iPlayerArena[client];
-    new player_slot = g_iPlayerSlot[client];
+    //new player_slot = g_iPlayerSlot[client];
 
     if (!arena_index) {
         PrintToChat(client, "You are not in an arena!");
@@ -3465,7 +3465,7 @@ public Action:Command_Koth(client, args) {
         return Plugin_Continue;
 
     new arena_index = g_iPlayerArena[client];
-    new player_slot = g_iPlayerSlot[client];
+    //new player_slot = g_iPlayerSlot[client];
 
     if (!arena_index) {
         PrintToChat(client, "You are not in an arena!");
@@ -3510,7 +3510,7 @@ public Action:Command_Mge(client, args) {
         return Plugin_Continue;
 
     new arena_index = g_iPlayerArena[client];
-    new player_slot = g_iPlayerSlot[client];
+    //new player_slot = g_iPlayerSlot[client];
 
     if (!arena_index) {
         PrintToChat(client, "You are not in an arena!");
@@ -5210,7 +5210,7 @@ public Action:Timer_CountDownKoth(Handle:timer, any:arena_index)
         }
         if(g_fTotalTime[arena_index] != 0)
         {
-            new Float:cap = FloatDiv(g_fCappedTime[arena_index] * 8.4, float(g_fTotalTime[arena_index]));
+            new Float:cap = g_fCappedTime[arena_index] * 8.4 / float(g_fTotalTime[arena_index]);
             if(!g_bArenaUltiduo[arena_index])
                 cap = cap * 1.5;
             g_fKothCappedPercent[arena_index] += cap;
