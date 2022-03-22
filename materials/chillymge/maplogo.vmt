@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+"$basetexture"	"chillymge/maplogo"
+"$decal" 1
+"$decalscale" 0.25
+"$translucent" 1
+"%keywords" "tf"
+}
